@@ -1,0 +1,46 @@
+{
+	"fs_abok" :
+	{
+		"class" : "savage",
+		"female" : true,
+		"images" :
+		{
+			"large" : "wildvalley/heroes/abok/large.png",
+			"small" : "wildvalley/heroes/abok/small.png",
+			"specialtyLarge" : "wildvalley/heroes/abok/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/abok/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_birdStalker", "max" : 7, "min" : 4 }
+			
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+		],
+		"texts" :
+		{
+			"name" : "阿博克",
+			"biography" : "阿博克是一位落魄的年轻贵族，荒谷势力最初的四位缔造者之一。长年的战争使她的家族元气大伤，急需和平的环境休养生息，为了保护家人，她经过多年的努力学会了驯养虫类以抵御外敌。",
+			"specialty" :
+			{
+				"description" : "达到2级以后提高荧光虫或电光虫的攻击力与防御力。",
+				"tooltip" : "生物强化：荧光虫",
+				"name" : "荧光虫",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_birdStalker"
+		}		
+	}
+}

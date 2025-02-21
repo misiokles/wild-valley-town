@@ -1,0 +1,45 @@
+{
+	"fs_wrlik" :
+	{
+		"class" : "savage",
+		"female" : true,
+		"images" :
+		{
+			"large" : "wildvalley/heroes/wrlik/large.png",
+			"small" : "wildvalley/heroes/wrlik/small.png",
+			"specialtyLarge" : "wildvalley/heroes/wrlik/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/wrlik/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_pygmy", "max" : 10, "min" : 6 },
+			{ "creature" : "fs_hippogriff", "max" : 1, "min" : 1 },
+			{ "creature" : "fs_hippogriff",  "max" : 1, "min" : 1 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+		],
+		"texts" :
+		{
+			"name" : "弗利克",
+			"biography" : "弗利克本来是草原上的牧民，家族中有一手训鹰的绝活，她加入荒谷后可谓是如鱼得水。众人得自虫神古迹古籍中，有驯服牧虫鹫的方法，正好与弗利克家族所学颇为契合。",
+			"specialty" :
+			{
+				"description" : "达到6级以后提高牧虫鹫或牧虫鹫王的攻击力与防御力。",
+				"tooltip" : "生物强化：牧虫鹫",
+				"name" : "牧虫鹫",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_hippogriff"
+		}		
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"fs_priestess" : 
+	{
+		"name" :
+		{
+			"singular" : "牧虫女巫",
+			"plural" : "牧虫女巫"
+		},
+		"upgrades":
+		[
+			"fs_highPriestess"
+		],
+		"level" : 4,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 320
+		},
+		"fightValue" : 420,
+		"aiValue" : 550,
+		"growth" : 4,
+		"attack" : 9,
+		"defense" : 7,
+		"hitPoints" : 25,
+		"shots" : 12,
+		"speed" : 5,
+		"damage" :
+		{
+			"min" : 7,
+			"max" : 10
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 7,
+			"max" : 15
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter": {
+				"type":"SHOOTER"
+			},
+			"fighter": {
+				"type": "NO_MELEE_PENALTY"
+			},
+			"magic": {
+				"type": "MAGIC_MIRROR",
+				"val": 10
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv4.def",
+			"map" : "wildvalley/map/creatures/lv4map.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv4small.png",
+			"iconLarge" : "wildvalley/iconsBig/lv4large.png",
+			"timeBetweenFidgets" : 1.10,
+			
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"idle" : 13.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile": "wildvalley/projectiles/green.def",
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 0,
+					"lowerY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"upperX" : 0,
+					"upperY" : 0
+				}
+			}
+		},
+		"sound" :
+		{
+			"attack": "MONKATTK.wav",
+			"defend": "MONKDFND.wav",
+			"killed": "MONKKILL.wav",
+			"move": "MONKMOVE.wav",
+			"shoot": "MONKSHOT.wav",
+			"wince": "MONKWNCE.wav"
+		}
+	}
+}

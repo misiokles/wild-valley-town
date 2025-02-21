@@ -1,0 +1,151 @@
+{
+	"lightningForce":
+	{
+		"type": "combat", 
+		"name": "闪电力场",
+		"school":
+		{
+			"air": true,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,
+		"power": 25,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		
+		},
+ 
+		"flags" :
+		{
+			"offensive": true,
+			"damage": true,
+			"negative": true
+		},
+ 
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {}
+	},  
+		"graphics":
+		{
+			"iconBook": "wildvalley/spells/lightningForce1.bmp",
+			"iconScroll": "wildvalley/spells/lightningForce2.bmp",
+			"iconScenarioBonus": "wildvalley/spells/lightningForce3.bmp",
+			"iconEffect": "wildvalley/spells/lightningForce4.bmp"
+		},
+		
+		"animation":
+		{
+			"hit":["C03SPA0"] //C07SPW0 ???
+		},
+
+		"sounds":
+		{
+			"cast": "wildvalley/lightningForce.wav"
+		},
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"aiValue": 25,
+				"range": "0,0",
+
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军1回合麻痹无法行动。\n",
+	 
+				"cost": 14,
+				"power": 10,
+				"effects":
+				{
+					"notActive":
+					{
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						"subtype" : "spell.paralyze",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns":1
+					}
+				}
+	 
+			},
+			"basic":
+			{
+				"description": "{初级闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军1回合麻痹无法行动。\n",
+	 
+				"cost": 11,
+				"power": 10,
+	 
+				"effects":
+				{
+					"notActive":
+					{
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						"subtype" : "spell.paralyze",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns":1
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{中级闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军2回合麻痹无法行动。\n",
+	 
+				"cost": 11,
+				"power": 20,
+	 
+				"effects":
+				{
+					"notActive":
+					{
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						"subtype" : "spell.paralyze",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns":2
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{高级闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军2回合麻痹无法行动。\n",
+	 
+				"cost": 11,
+				"power": 50,
+	 
+				"effects":
+				{
+					"notActive":
+					{
+						"val" : 0,
+						"type" : "NOT_ACTIVE",
+						"subtype" : "spell.paralyze",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns":2
+					}
+				}
+			}
+		}
+	}
+
+}

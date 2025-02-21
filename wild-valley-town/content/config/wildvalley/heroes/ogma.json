@@ -1,0 +1,42 @@
+{
+	"rn_ogma" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"images" : {
+			"large" : "wildvalley/heroes/ogma/large.png",
+			"small" : "wildvalley/heroes/ogma/small.png",
+			"specialtyLarge" : "wildvalley/heroes/ogma/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/ogma/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "luck" },
+			{ "level" : "basic", "skill" : "archery" }
+		],
+		"specialty" : {				
+				"bonuses" : {
+				  "LUCK":	
+					{
+					"type" : "LUCK",
+					"val" : -2,
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"stacking" : "面对-1运气特长的英雄"
+					}
+				}
+			},
+		"texts" : {
+			"biography" : "奥格玛年轻时长相俊美，是帝国中的美男子，他立志从军以博取贵族爵位。无奈似乎是衰神附体，他在军队中总是不得志，任务执行总出状况，不得已只能离开军队。一次偶然的机会发现自己的衰运可以转移给别人，他重燃希望加入唯一接纳他的荒谷势力，准备在战场上证明自己。",
+			"name" : "奥格玛",
+			"specialty" : {
+				"description" : "战斗中使敌人运气-2。",
+				"tooltip" : "敌方-2运气",
+				"name" : "-2运气"
+			}
+		}
+	}
+}

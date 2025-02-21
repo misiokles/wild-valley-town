@@ -1,0 +1,46 @@
+{
+	"fs_eheca" :
+	{
+		"class" : "savage",
+		"female" : true,
+		"spellbook" : [ ],
+		"images" :
+		{
+			"large" : "wildvalley/heroes/eheca/large.png",
+			"small" : "wildvalley/heroes/eheca/small.png",
+			"specialtyLarge" : "wildvalley/heroes/eheca/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/eheca/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_pygmy", "max" : 10, "min" : 6 },
+			{ "creature" : "fs_Giant", "max" : 1, "min" : 1 },
+			{ "creature" : "fs_Giant",  "max" : 1, "min" : 1 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+		],
+		"texts" :
+		{
+			"name" : "埃赫卡",
+			"biography" : "埃赫卡的父母都是猎人，她从小就生活在森林附近的村子里，每隔一段时间，父母就会带她去镇上的集市用猎物换取生活必需品。但是近几年的战争使小镇不太平，于是她们加入荒谷以求自保。小时候的生活使埃赫卡与树木有很强的亲和力，所以她成为荒谷势力中树妖统帅的不二人选。",
+			"specialty" :
+			{
+				"description" : "达到6级以后提高迷虫树妖或虫栖树妖的攻击力与防御力。",
+				"tooltip" : "技能加成：迷虫树妖",
+				"name" : "迷虫树妖",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_Giant"
+		}		
+	}
+}

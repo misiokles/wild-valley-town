@@ -1,0 +1,49 @@
+{
+	"fs_tapio" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"spellbook" : [ "protectFire","protectAir","protectWater" ],
+		"images" : {
+			"large" : "wildvalley/heroes/tapio/large.png",
+			"small" : "wildvalley/heroes/tapio/small.png",
+			"specialtyLarge" : "wildvalley/heroes/tapio/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/tapio/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "intelligence" },
+			{ "level" : "basic", "skill" : "airMagic" }
+		],
+		"specialty" : {
+				"bonuses" : {
+			"magicVulnerability":			{
+				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+				"subtype" : "immunityBattleWide",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+					},
+			"magicVulnerability2":			{
+				"type" : "NEGATE_ALL_NATURAL_IMMUNITIES",
+				"subtype" : "immunityEnemyHero",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+					
+					}
+			}	
+		},
+		"texts" : {
+			"biography" : "塔皮奥是一位非常强大的精灵魔法师，精灵村落遇袭，大概率与他相关，消除魔法抗性的技能使他成为很多强大势力的目标。塔皮奥能被荒谷势力的人类解救，也是诸多巧合促成，鉴于他目前时刻处于危险中，他决定随荒谷势力一起隐居。",
+			"name" : "塔皮奥",
+			"specialty" : {
+				"description" : "消除战场上所有生物天生的魔法抗性。",
+				"name" : "穿透魔抗",
+				"tooltip" : "魔法增强：穿透魔抗"
+			}
+		}
+	}
+}

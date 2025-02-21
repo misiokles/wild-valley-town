@@ -1,0 +1,70 @@
+{
+	"fs_birdStalker" : 
+	{
+		"name" :
+		{
+			"singular" : "荧光虫",
+			"plural" : "荧光虫"
+		},
+		"upgrades":
+		[
+			"fs_skyHunter","fs_lv2upb"
+		],
+		"level" : 2,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 130
+		},
+		"fightValue" : 120,
+		"aiValue" : 130,
+		"growth" : 9,
+		
+		"attack" : 6,
+		"defense" : 4,
+		"hitPoints" : 12,
+		"speed" : 8,
+		"damage" :
+		{
+			"min" : 2,
+			"max" : 3
+		},
+		"advMapAmount" :
+		{
+			"min" : 15,
+			"max" : 27
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv2.def",
+			"map" : "wildvalley/map/creatures/lv2map.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv2small.png",
+			"iconLarge" : "wildvalley/iconsBig/lv2large.png",
+			"timeBetweenFidgets" : 0.80,
+			
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 19.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "wildvalley/scarAtt.wav",
+			"defend": "wildvalley/scarDef.wav",
+			"killed": "wildvalley/scarDie.wav",
+			"move": "wildvalley/scarWalk.wav",
+			"wince": "wildvalley/scarHit.wav"
+		}
+	}
+}

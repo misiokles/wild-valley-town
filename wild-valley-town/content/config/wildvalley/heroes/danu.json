@@ -1,0 +1,42 @@
+{
+	"fs_danu" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"female" : true,
+		"spellbook" : [ "bless" ],
+		"images" : {
+			"large" : "wildvalley/heroes/danu/large.bmp",
+			"small" : "wildvalley/heroes/danu/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/danu/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/danu/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "waterMagic" },
+			{ "level" : "basic", "skill" : "sorcery" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "达努曾经是一位效力于帝国的魔法师，长期的战争中她失去了许多战友和亲人，于是她开始厌恶战争。一次偶然的机会，达努遇到了迁移中的荒谷势力，寻找和平居所的目标使她立刻决定加入队伍。",
+			"name" : "达努",
+			"specialty" : {
+				"description" : "在魔力技能上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：魔力",
+				"name" : "魔力"
+			}
+		}
+	}
+}

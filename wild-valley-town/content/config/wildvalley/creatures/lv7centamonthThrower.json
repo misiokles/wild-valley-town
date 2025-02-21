@@ -1,0 +1,46 @@
+{
+	"fs_centamonthThrower" : {
+		"abilities" : {
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"king1" :
+			{
+				"type" : "KING",
+	            "val" : 0
+			}
+		},
+		"advMapAmount" : {"max" : 8, "min" : 3},
+		"aiValue" : 4900,
+		"attack" : 20,
+		"cost" : { "gold" : 2700, "wood" : 2},
+		"damage" : {"max" : 45, "min" : 35},
+		"defense" : 20,
+		"faction" : "wildvalley",
+		"fightValue" : 3650,
+		"graphics" : {
+			"animation" : "wildvalley/battle/creatures/lv7.def",
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.00 },
+			"iconSmall" : "wildvalley/iconsSmall/lv7small.bmp",
+			"iconLarge" : "wildvalley/iconsBig/lv7large.bmp",
+			"map" : "wildvalley/map/creatures/lv7map.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 180,
+        "doubleWide" : true,
+		"level" : 7,
+		"name" : { "plural" : "巨螳螂", "singular" : "巨螳螂" },
+		"shots" : 0,
+		"sound" : {
+			"attack" : "wildvalley/SmtsATTK.wav",
+			"defend" : "wildvalley/SmtsDFND.wav",
+			"killed" : "wildvalley/SmtsKILL.wav",
+			"move" :   "wildvalley/SmtsMOVE.wav",
+			"wince" :  "wildvalley/SmtsWNCE.wav"
+		},
+		"speed" : 10,
+		"upgrades" : [ "fs_centamonthHunter" ]
+	}
+}

@@ -1,0 +1,133 @@
+{ 
+	"wildvalley" : {
+		"name" : "荒谷",
+		"description" : "{荒谷}\n种族阵营： 中立，守序\n种族地形： 草地\n所在地： 恩塔格瑞大陆-埃拉西亚南部山区河谷\n荒谷势力是在年轻的落魄贵族的组织下，吸纳了厌恶战争的军人、无家可归的女人和孩子、爱好和平的工匠和重获自由的大精灵后，建立起来的中等规模的势力。势力建立过程中在一处荒谷获得了驯服虫类的办法，于是他们有了在战争中自保的能力。",
+		"alignment" : "neutral",
+		"boat" : "boatFortress",
+		"nativeTerrain": "grass",
+		"creatureBackground" : { 
+			"120px" : "wildvalley/creaturebg120px",
+			"130px" : "wildvalley/creaturebg130px"
+		},
+		"town" : {
+			"primaryResource" : "ore", 
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "wildvalley/map/town-capitol.def" },
+					"castle"  : { "animation" : "wildvalley/map/town-castle.def" },
+					"citadel" : { "animation" : "wildvalley/map/town-citadel.def" },
+					"fort"    : { "animation" : "wildvalley/map/town-fort.def" },
+					"village" : { "animation" : "wildvalley/map/town-village.def" }
+				}
+			},
+			"musicTheme" : ["music/factions/wildvalley"],
+			"creatures" : [
+				["fs_pygmy","fs_pygmyWarrior"],
+				["fs_birdStalker","fs_skyHunter","fs_lv2upb" ],
+				["fs_stag","fs_highStag"],
+				["fs_priestess", "fs_highPriestess"],
+				["fs_giantSpider", "fs_ancientSpider"],
+				["fs_Giant", "fs_MountainGian","fs_hippogriff", "fs_greatHippogriff"],
+				["fs_centamonthThrower", "fs_centamonthHunter"]
+			],
+			"guildWindow" : "wildvalley/town/mageguild",
+			"names" : [
+				"秘鲁亚瑟穆",
+				"图格拉卡巴德",
+				"邓诺特",
+				"邓卢斯",
+				"奥格罗杰涅茨",
+				"海德堡",
+				"斯托雷利",
+				"惠特比",
+				"纽卡斯尔",
+				"科夫",
+				"威特利",
+				"刁兰",
+				"艾琳多南",
+				"厄克特",
+				"洛赫兰扎"
+			],
+			"hallBackground" : "wildvalley/town/TPTHBKCS.bmp",
+            "buildingsIcons": "wildvalley/townhall.def",
+			"hallSlots" : [
+				[
+					[ "villageHall","townHall","cityHall","capitol"],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace","resourceSilo","vault"],
+					[ "mageGuild1","mageGuild2","mageGuild3","mageGuild4" ],
+					[ "face","special"],
+					[ "shipyard" ]
+				],
+				[ 
+					[ "hordeLvl1","hordeUpLvl1" ],
+					[ "hordeLvl5","hordeUpLvl5" ],
+									],
+				[
+					[ "dwellingLvl1","dwellingUpLvl1"],
+					[ "dwellingLvl2","dwellingUpLvl2","dwellingUpLvl2b"],
+					[ "dwellingLvl3","dwellingUpLvl3"],
+					[ "dwellingLvl4","dwellingUpLvl4"]
+				],
+				[
+					[ "dwellingLvl5","dwellingUpLvl5"],
+					[ "dwellingLvl6","dwellingUpLvl6"],   
+                    [ "dwellingAlternateLvl6","dwellingAlternateUpLvl6"],
+					[ "dwellingLvl7","dwellingUpLvl7"]
+				]
+			],
+			"horde" : [ 0,4 ],
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "wildvalley/icons/fortbuildedlarge.bmp",
+						"small" : "wildvalley/icons/fortbuildedsmall.bmp"
+					},
+					"normal" : { "large" : "wildvalley/icons/fortlarge.bmp", "small" : "wildvalley/icons/fortsmall.bmp" }
+				},
+				"village" : {
+					"built" : {
+						"large" : "wildvalley/icons/hallbuildedlarge.bmp",
+						"small" : "wildvalley/icons/hallbuildedsmall.bmp"
+					},
+					"normal" : { "large" : "wildvalley/icons/halllarge.bmp", "small" : "wildvalley/icons/hallsmall.bmp" }
+				}
+			},
+			"mageGuild" : 4,
+			"defaultTavern" : 5,
+			"tavern" : {
+				"knight" : 5,
+				"cleric" : 2,
+				"ranger" : 6,
+				"druid" : 8,
+				"alchemist" : 6,
+				"wizard" : 3,
+				"demoniac" : 1,
+				"heretic" : 0,
+				"deathknight" : 5,
+				"necromancer" : 1,
+				"overlord" : 4,
+				"warlock" : 2,
+				"barbarian" : 6,
+				"battlemage" : 5,
+				"beastmaster" : 4,
+				"witch" : 1,
+				"planeswalker" : 2,
+				"elementalist" : 3
+			},
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "wildvalley/town/background",
+			"guildBackground" : "TPMAGE.bmp",
+			"moatAbility" : "castleMoat"
+		}
+	}
+}

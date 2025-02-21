@@ -1,0 +1,43 @@
+{
+	"rn_moss" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"images" : {
+			"large" : "wildvalley/heroes/moss/large.png",
+			"small" : "wildvalley/heroes/moss/small.png",
+			"specialtyLarge" : "wildvalley/heroes/moss/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/moss/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "logistics" },
+			{ "level" : "basic", "skill" : "tactics" }
+		],
+		"specialty" : 
+			{				
+				"bonuses" : {
+					"stacksSpeed" :
+					{
+						"addInfo" : 0,
+						"propagator": "BATTLE_WIDE",
+					    "propagationUpdater" : "BONUS_OWNER_UPDATER",
+						"limiters" : [ "OPPOSITE_SIDE" ],
+						"type" : "STACKS_SPEED",
+						"val" : -1,
+					}
+				}
+			},
+		"texts" : {
+			"biography" : "莫丝擅长利用地形设置各种陷阱，以迟滞敌军，赢得战斗的胜利。这次解救被俘虏的精灵的任务中，莫丝竭尽所能，艰难地完成了任务，他是塔洛克的好友，所以也加入了荒谷势力。",
+			"name" : "莫丝",
+			"specialty" : {
+				"description" : "战斗中使敌方速度-1",
+				"name" : "迟滞敌军",
+				"tooltip" : "敌方速度-1"
+			}
+		}
+	}
+}

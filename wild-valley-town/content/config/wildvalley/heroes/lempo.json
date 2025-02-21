@@ -1,0 +1,41 @@
+{
+	"fs_lempo" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"images" : {
+			"large" : "wildvalley/heroes/lempo/large.bmp",
+			"small" : "wildvalley/heroes/lempo/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/lempo/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/lempo/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "logistics" },
+			{ "level" : "basic", "skill" : "archery" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"logistics" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementLand",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "伦波天生就是个猎人，他精通狙击，拥有丰富的经验，曾经是帝国军队优秀的特种兵，即使在最困难的地形上也能追踪目标。后来他厌恶了贵族间的战争，选择加入荒谷开始和平的隐居生活。",
+			"name" : "伦波",
+			"specialty" : {
+				"description" : "在后勤学上每级得到5%的额外奖励。",
+				"tooltip" : "技能加成：后勤学",
+				"name" : "后勤学"
+			}
+		}
+	}
+}

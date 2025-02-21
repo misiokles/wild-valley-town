@@ -1,0 +1,44 @@
+{
+	"fs_shaxas" :
+	{
+		"class" : "savage",
+		"images" :
+		{
+			"large" : "wildvalley/heroes/shaxas/large.png",
+			"small" : "wildvalley/heroes/shaxas/small.png",
+			"specialtyLarge" : "wildvalley/heroes/shaxas/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/shaxas/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+		],
+		"texts" :
+		{
+			"name" : "沙克斯",
+			"biography" : "沙克斯曾经是帝国的军人，指挥过千人级别的小型战役，有着丰富的战斗经验。现在他早已退役，回到家乡的小城市，但战争使他无法平静生活，只好加入荒谷一起迁移。正因为沙克斯指挥过大型战役，训练虫群的任务他能愉快胜任。",
+			"specialty" :
+			{
+				"description" : "达到1级以后提高甲虫或金甲虫的攻击力与防御力。",
+				"tooltip" : "生物强化：甲虫",
+				"name" : "甲虫",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_pygmy"
+		}		
+	}
+}

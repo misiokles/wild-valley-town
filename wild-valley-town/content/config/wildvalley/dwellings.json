@@ -1,0 +1,90 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"fsSavageVillage" : {
+				"name" : "温室虫屋",
+				"creatures" : [[ "fs_pygmy" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "wildvalley/map/pygmy",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"fs_paradise" : {
+				"name" : "清泉溪流",
+				"creatures" : [[ "fs_birdStalker" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "wildvalley/map/paradise",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+
+					}
+				}
+			},
+			"fs_forest" : {
+				"name" : "魔虫古洞",
+				"creatures" : [[ "fs_stag" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "wildvalley/map/cavern",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"fs_GodessTemple" : {
+				"name" : "巫女神庙",
+				"creatures" : [[ "fs_priestess" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "wildvalley/map/priestess",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"fs_SpiderDomain" : {
+				"name" : "古蛛领地",
+				"creatures" : [[ "fs_giantSpider" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "wildvalley/map/temple",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"fs_Stonehenge'sNest" : {
+				"name" : "崖柏鹫巢",
+				"creatures" : [[ "fs_hippogriff" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "wildvalley/map/cliff",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"fs_gudong" : {
+				"name" : "魔法森林",
+				"creatures" : [[ "fs_Giant" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "wildvalley/map/forest",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"fs_FieldRuins" : {
+				"name" : "虫神古迹",
+				"creatures" : [[ "fs_centamonthThrower" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "wildvalley/map/ruins",
+						"mask" : [ "VVV", "BBB", "BBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

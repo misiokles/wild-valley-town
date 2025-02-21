@@ -1,0 +1,41 @@
+{
+	"fs_strib" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"female" : true,
+		"spellbook" : ["iceBolt"],
+		"images" : {
+			"large" : "wildvalley/heroes/strib/large.png",
+			"small" : "wildvalley/heroes/strib/small.png",
+			"specialtyLarge" : "wildvalley/heroes/strib/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/strib/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "airMagic" },
+			{ "level" : "basic", "skill" : "waterMagic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "斯特瑞丝也是这次解救精灵任务的重要伤害输出，她的魔法异常强大，同时她也暗恋着塔皮奥，于是最终她也加入了荒谷势力。",
+			"name" : "斯特瑞丝",
+			"specialty" : {
+				"description" : "使用霹雳寒冰魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：霹雳寒冰",
+				"name" : "霹雳寒冰"
+			}
+		}
+	}
+}

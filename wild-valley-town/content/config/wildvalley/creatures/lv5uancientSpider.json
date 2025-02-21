@@ -1,0 +1,76 @@
+{
+	"fs_ancientSpider" : 
+	{
+		"name" :
+		{
+			"singular" : "摄魂巨蛛",
+			"plural" : "摄魂巨蛛"
+		},
+		"level" : 5,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 475
+		},
+		"fightValue" : 740,
+		"aiValue" : 900,
+		"growth" : 3,
+		"horde" : 2,
+		"attack" : 14,
+		"defense" : 10,
+		"hitPoints" : 50,
+		"speed" : 7,
+		"damage" :
+		{
+			"min" : 11,
+			"max" : 14
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 7,
+			"max" : 13
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"fear" : { 
+				"type" : "FEAR"
+			},
+			"predator" : { 
+				"type" : "NO_MORALE"
+			},
+			"poison" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.sorrow",
+				"addInfo":2,
+				"val" : 60
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv5up.def",
+			"map" : "wildvalley/map/creatures/lv5upmap.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv5upsmall.png",
+			"iconLarge" : "wildvalley/iconsBig/lv5uplarge.png",
+			"timeBetweenFidgets" : 1.00,
+			
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 15.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "BASLATTK.wav",
+			"defend": "BASLDFND.wav",
+			"killed": "BASLKILL.wav",
+			"move": "BASLMOVE.wav",
+			"wince": "BASLWNCE.wav"
+		}
+	}
+}

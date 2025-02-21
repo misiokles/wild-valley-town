@@ -1,0 +1,49 @@
+{
+	"fs_centamonthHunter" : {
+			"abilities" : {
+				"canFly" :{
+				"type" : "FLYING"
+			},
+			"king1" :{
+				"type" : "KING",
+				"val" : 0
+			},
+			"binds": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "spell.bind",
+				"val": 100,
+				"addInfo" : 2000 // FIXME: replace with range field?
+			}
+		},
+		"advMapAmount" : {"max" : 8, "min" : 3},
+		"aiValue" : 8550,
+		"attack" : 26,
+		"cost" : { "gold" : 4500, "wood" : 4 },
+		"damage" : {"max" : 45, "min" : 35},
+		"defense" : 26,
+		"faction" : "wildvalley",
+		"fightValue" : 5990,
+		"graphics" : {
+			"animation" : "wildvalley/battle/creatures/lv7up.def",
+			"animationTime" : { "attack" : 1, "idle" : 4, "walk" : 1.0 },
+			"iconSmall" : "wildvalley/iconsSmall/lv7upsmall.bmp",
+			"iconLarge" : "wildvalley/iconsBig/lv7uplarge.bmp",
+			"map" : "wildvalley/map/creatures/lv7upmap.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+                "doubleWide" : true,
+		"level" : 7,
+		"name" : { "plural" : "金刀螳螂", "singular" : "金刀螳螂" },
+		"shots" : 0,
+		"sound" : {
+			"attack" : "wildvalley/SmtsATTK.wav",
+			"defend" : "wildvalley/SmtsDFND.wav",
+			"killed" : "wildvalley/SmtsKILL.wav",
+			"move" :   "wildvalley/SmtsMOVE.wav",
+			"wince" :  "wildvalley/SmtsWNCE.wav"
+		},
+		"speed" : 15,
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"wildvalley" :
+	{
+		"town" :
+		{
+			"guildSpells" :
+			{
+				// Level 1
+				"bless"          : 7,
+				"bloodlust"      : 5,
+				"cure"           : 10,
+				"curse"          : 6,
+				"dispel"         : 12,
+				"haste"          : 16,
+				"magicArrow"     : 7,
+				"protectAir"     : 10,
+				"protectFire"    : 3,
+				"shield"         : 10,
+				"slow"           : 10,
+				"stoneSkin"      : 10,
+				"summonBoat"     : 7,
+				"viewAir"        : 7,
+				"viewEarth"      : 7,
+
+				// Level 2
+				"disguise"       : 5,
+				"disruptingRay"  : 13,
+				"fireWall"       : 10,
+				"fortune"        : 10,
+				"iceBolt"        : 8,
+				"lightningBolt"  : 20,
+				"precision"      : 5,
+				"quicksand"      : 5,
+				"removeObstacle" : 7,
+				"scuttleBoat"    : 7,
+				"visions"        : 4,
+				"weakness"       : 8,
+
+				// Level 3
+				"airShield"      : 15,
+				"antiMagic"      : 10,
+				"earthquake"     : 10,
+				"fireball"       : 7,
+				"forceField"     : 12,
+				"forgetfulness"  : 6,
+				"frostRing"      : 8,
+				"hypnotize"      : 10,
+				"landMine"       : 7,
+				"mirth"          : 3,
+				"misfortune"     : 7,
+				"protectEarth"   : 3,
+				"protectWater"   : 0,
+				"teleport"       : 8,
+				"lightningForce" : 30,
+
+				//Level 4
+				"berserk"        : 5,
+				"chainLightning" : 20,
+				"clone"          : 5,
+				"counterstrike"  : 5,
+				"fireShield"     : 5,
+				"frenzy"         : 5,
+				"inferno"        : 5,
+				"meteorShower"   : 5,
+				"prayer"         : 5,
+				"resurrection"   : 5,
+				"slayer"         : 5,
+				"sorrow"         : 5,
+				"townPortal"     : 15,
+				"waterWalk"      : 5,
+
+				//Level 5
+				"airElemental"   : 10,
+				"dimensionDoor"  : 5,
+				"earthElemental" : 20,
+				"fireElemental"  : 10,
+				"fly"            : 5,
+				"implosion"      : 20,
+				"magicMirror"    : 10,
+				"sacrifice"      : 10,
+				"waterElemental" : 10
+			}
+		}
+	}
+}
+

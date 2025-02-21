@@ -1,0 +1,26 @@
+{
+	"core:protectFire" : {	
+		"counters" : {
+			"spell.fireWeakness":true
+		}
+	},
+
+	"core:protectWater" : {
+		
+		"counters" : {
+			"spell.waterWeakness":true
+		}
+	},
+
+	"core:protectAir" : {
+		"counters" : {
+			"spell.airWeakness":true
+		}
+	},
+
+	"core:protectEarth" : {
+		"counters" : {
+			"spell.earthWeakness":true
+		}
+	}
+}

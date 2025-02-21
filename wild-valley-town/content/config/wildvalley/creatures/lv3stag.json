@@ -1,0 +1,77 @@
+{
+	"fs_stag" : 
+	{
+		"name" :
+		{
+			"singular" : "地穴魔虫",
+			"plural" : "地穴魔虫"
+		},
+		"upgrades":
+		[
+			"fs_highStag"
+		],
+		"level" : 3,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 220
+		},
+		"fightValue" : 333,
+		"aiValue" : 303,
+		"growth" : 6,
+		
+		"attack" : 8,
+		"defense" : 8,
+		"hitPoints" : 25,
+		"shots" : 0,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 3,
+			"max" : 6
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 12,
+			"max" : 25
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv3.def",
+			"map" : "wildvalley/map/creatures/lv3map.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv3small.png",
+			"iconLarge" : "wildvalley/iconsBig/lv3large.png",
+			"timeBetweenFidgets" : 0.90,
+			
+			"animationTime" :
+			{
+				"walk" : 1.10,
+				"idle" : 21.00,
+				"attack" : 1.30
+			}
+		},
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "PLIZMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		}
+	}
+}

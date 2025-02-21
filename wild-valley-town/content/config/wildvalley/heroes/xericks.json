@@ -1,0 +1,45 @@
+{
+	"fs_xericks" :
+	{
+		"class" : "savage",
+		"female" : true,
+		"images" :
+		{
+			"large" : "wildvalley/heroes/xericks/large.png",
+			"small" : "wildvalley/heroes/xericks/small.png",
+			"specialtyLarge" : "wildvalley/heroes/xericks/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/xericks/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 },
+			{ "creature" : "fs_stag",  "max" : 3, "min" : 2 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+		],
+		"texts" :
+		{
+			"name" : "赛里克斯",
+			"biography" : "赛里克斯是为了躲避仇人的追杀，带着家人加入了荒谷，没想到这成为后来报仇雪恨的契机。荒谷势力安定后缺乏保护大家安全的兵种，虫神古迹的牧虫方法赛里克斯特别重视，经过层层选拔，她成功成为地穴魔虫的统帅。",
+			"specialty" :
+			{
+				"description" : "达到3级以后提高地穴魔虫或地穴狂魔虫的攻击力与防御力。",
+				"tooltip" : "生物强化：地穴魔虫",
+				"name" : "地穴魔虫",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_stag"
+		}		
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"runemaster" :
+	{
+		"animation" : {
+			"battle" : 
+			{
+				"female" : "wildvalley/classes/runemaster/battle.def",
+				"male"   : "wildvalley/classes/runemaster/battle.def"
+			}
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : { 
+					"animation" : "wildvalley/classes/runemaster/adventure.def",
+					"editorAnimation": "wildvalley/classes/runemaster/adventure.def" 
+				}
+			}
+		},
+		"name" : "牧虫巫师",
+		"faction" : "wildvalley",
+		"commander" : "fs_healer",
+		"affinity" : "magic",
+		"primarySkills" :
+		{
+			"attack"     : 0,
+			"defence"    : 1,
+			"spellpower" : 2,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 30,
+			"knowledge"  : 30
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 20,
+			"defence"    : 20,
+			"spellpower" : 25,
+			"knowledge"  : 35
+		},
+		"secondarySkills" :
+		{
+			"airMagic" : 9,
+			"armorer" : 8,
+			"diplomacy" : 5,
+			"eagleEye" : 3,
+			"earthMagic" : 7,
+			"fireMagic" : 4,
+			"intelligence" : 8,
+			"leadership" : 1,
+			"learning" : 8,
+			"logistics" : 3,
+			"luck" : 7,
+			"mysticism" : 5,
+			"navigation" : 2,
+			"offence" : 4,
+			"pathfinding" : 3,
+			"resistance" : 8,
+			"scholar" : 9,
+			"scouting" : 4,
+			"sorcery" : 6,
+			"tactics" : 4,
+			"waterMagic" : 7,
+			"wisdom" : 8,
+			"firstAid" : 5
+		},
+		"defaultTavern" : 2,
+		"tavern" :
+		{
+			"castle" : 0,
+			"conflux" : 4,
+			"dungeon" : 2,
+			"fortress" : 6,
+			"rampart" : 8,
+			"stronghold" : 2,
+			"wildvalley" : 10,
+			"inferno" : 0,
+			"necropolis" : 0,
+			"tower" : 0
+		}
+	}
+}

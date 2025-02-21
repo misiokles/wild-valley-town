@@ -1,0 +1,39 @@
+{
+	"fs_aodh" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"spellbook" : [ "magicArrow" ],
+		"images" : {
+			"large" : "wildvalley/heroes/aodh/large.bmp",
+			"small" : "wildvalley/heroes/aodh/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/aodh/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/aodh/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "firstAid" },
+			{ "level" : "basic", "skill" : "wisdom" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"health" : {
+					"type" : "STACK_HEALTH",
+						"val" : 10,
+						"valueType" : "PERCENT_TO_BASE",
+				}
+			}
+			},
+		"texts" : {
+			"biography" : "奥德是某个乡村的小贵族，荒谷势力最初的四位缔造者之一。他曾经游历大陆遍访名师学习魔法，但是战争突然降临他的家乡，于是他不得不中断魔法的学习，回乡帮助家族寻找新的安全居所。",
+			"name" : "奥德",
+			"specialty" : {
+				"description" : "使所属部队的生命上限提高10%。",
+				"name" : "+10% 生命值",
+				"tooltip" : "使所属部队的生命上限提高10%。"
+			}
+		}
+	}
+}

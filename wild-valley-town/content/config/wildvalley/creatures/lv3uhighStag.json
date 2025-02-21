@@ -1,0 +1,77 @@
+{
+	"fs_highStag" : 
+	{
+		"name" :
+		{
+			"singular" : "地穴狂魔虫",
+			"plural" : "地穴狂魔虫"
+		},
+		"level" : 3,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 260
+		},
+		"fightValue" : 374,
+		"aiValue" : 407,
+		"growth" : 6,
+		
+		"attack" : 9,
+		"defense" : 9,
+		"hitPoints" : 25,
+		"speed" : 8,
+		"damage" :
+		{
+			"min" : 3,
+			"max" : 6
+		},
+		"spellPoints" : 0,
+		"advMapAmount" :
+		{
+			"min" : 12,
+			"max" : 20
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+            "+10defense when defending" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 10
+			},
+		    "spellimmunityquick" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.quicksand"
+			}
+        },
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv3up.def",
+			"map" : "wildvalley/map/creatures/lv3upmap.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv3upsmall.png",
+			"iconLarge" : "wildvalley/iconsBig/lv3uplarge.png",
+			"timeBetweenFidgets" : 1.00,
+			
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 22.00,
+				"attack" : 1.10
+			}
+		},
+		"sound" :
+		{
+			"attack": "RGRFATTK.wav",
+			"defend": "RGRFDFND.wav",
+			"killed": "RGRFKILL.wav",
+			"move": "PLIZMOVE.wav",
+			"wince": "RGRFWNCE.wav"
+		}
+	}
+}

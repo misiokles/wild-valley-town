@@ -1,0 +1,108 @@
+{
+	"fs_healer" : 
+	{
+		"name" :
+		{
+			"singular" : "治愈师",
+			"plural" : "治愈师"
+		},
+		"level" : 0,
+		"special" : true,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 450
+		},
+		"fightValue" : 696,
+		"aiValue" : 727,
+		"growth" : 1,
+                "attack" : 7,
+		"defense" : 7,
+		"hitPoints" : 50,
+		"shots" : 26,
+		"damage" :
+		{
+			"min" : 14,
+			"max" : 17
+		},
+		"spellPoints" : 50,
+		"doubleWide" : false,
+		"abilities" :
+		{
+        		"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 2
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectEarth",
+				"val" : 3
+                        },
+                  "noMind":
+                  {
+                   "type": "MIND_IMMUNITY"
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv0.def",
+			"map" : "wildvalley/map/creatures/lv0map.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv0s.png",
+			"iconLarge" : "wildvalley/iconsBig/lv0b.png",
+			"timeBetweenFidgets" : 1.00,
+			
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"idle" : 12.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile": "wildvalley/projectiles/green.def",
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 0,
+					"lowerY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"upperX" : 0,
+					"upperY" : 0
+				}
+			}
+		},
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+		}
+	}
+}

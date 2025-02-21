@@ -1,0 +1,41 @@
+{
+	"fs_aker" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"images" : {
+			"large" : "wildvalley/heroes/aker/large.bmp",
+			"small" : "wildvalley/heroes/aker/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/aker/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/aker/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "armorer" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "亚克被是一位落魄的年轻贵族，荒谷势力最初的四位缔造者之一。少年和青年时期他跟随父亲经历了军事训练和小规模的战争，在他25岁那年，父亲意外死于战场，家道中落。此后他一心想建立自己的势力，为自己而战，成为一方领主。",
+			"name" : "亚克",
+			"specialty" : {
+				"description" : "在防御术上每级获得5%的奖励。",
+				"tooltip" : "技能加成：防御术",
+				"name" : "防御术"
+			}
+		}
+	}
+}

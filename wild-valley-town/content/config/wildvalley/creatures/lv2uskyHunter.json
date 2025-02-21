@@ -1,0 +1,95 @@
+{
+	"fs_skyHunter" : 
+	{
+		"name" :
+		{
+			"singular" : "电光虫",
+			"plural" : "电光虫"
+		},
+		"upgrades":
+		[
+			"fs_lv2upb"
+		],
+		"level" : 2,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 190
+		},
+		"fightValue" : 210,
+		"aiValue" : 240,
+		"growth" : 9,
+		
+		"attack" : 7,
+		"defense" : 5,
+		"hitPoints" : 14,
+		"speed" : 10,
+		"damage" :
+		{
+			"min" : 2,
+			"max" : 5
+		},
+		"spellPoints" : 2,
+		"advMapAmount" :
+		{
+			"min" : 18,
+			"max" : 27
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"castsDisruptingRay" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 2
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"paralize" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.paralyze",
+				"val" : 20
+			},
+			"castssor1" :
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.airWeak",
+				"val" : 0,
+				"propagator" : "HERO"
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv2up.def",
+			"map" : "wildvalley/map/creatures/lv2upmap.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv2upsmall.png",
+			"iconLarge" : "wildvalley/iconsBig/lv2uplarge.png",
+			"timeBetweenFidgets" : 0.80,
+			
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 21.00,
+				"attack" : 1.30
+			}
+		},
+		"sound" :
+		{
+			"attack": "wildvalley/scarAtt.wav",
+			"defend": "wildvalley/scarDef.wav",
+			"killed": "wildvalley/scarDie.wav",
+			"move": "wildvalley/scarWalk.wav",
+			"wince": "wildvalley/scarHit.wav"
+		}
+	}
+}

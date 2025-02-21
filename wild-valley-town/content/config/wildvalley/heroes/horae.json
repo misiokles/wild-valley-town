@@ -1,0 +1,46 @@
+{
+	"rn_horae" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"spellbook" : [ "earthquake" ],
+		"images" : {
+			"large" : "wildvalley/heroes/horae/large.bmp",
+			"small" : "wildvalley/heroes/horae/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/horae/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/horae/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "earthMagic" }
+		],
+		"specialty" : 
+			{				
+				"bonuses" : {
+					"earthquake": {
+					"type" : "SPELL",
+					"subtype" : "spell.earthquake",
+					"val" : 3
+				},
+				"maxEarthquake": {
+					"subtype" : "spell.earthquake",
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
+				}
+				}
+			},
+		"texts" : {
+			"biography" : "霍雷曾经是位精灵德鲁伊，最擅长召唤自然的力量来破坏建筑，当然也能反过来利用自然的力量来建造建筑。某一天一群外族生物袭击了霍雷生活的精灵村庄，他被俘成为奴隶，后来荒谷的人类解救了他，于是他决定留下来帮助人类建立新家园。",
+			"name" : "霍雷",
+			"specialty" : {
+				"name" : "地动山摇",
+				"description" : "使用地动山摇魔法的效果达到最大。",
+				"tooltip" : "魔法增强：地动山摇"
+			}
+		}
+	}
+}

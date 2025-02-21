@@ -1,0 +1,40 @@
+{
+	"fs_leshy" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"spellbook" : [ "haste" ],
+		"images" : {
+			"large" : "wildvalley/heroes/leshy/large.bmp",
+			"small" : "wildvalley/heroes/leshy/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/leshy/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/leshy/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "mysticism" },
+			{ "level" : "basic", "skill" : "airMagic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "莱希是荒谷某位魔法学徒的导师，年轻时也曾叱咤风云，现在已不复当年之勇。但为了学生和家人能在这个纷乱的世界中安然生活，他再次拿起了魔法师，为和平而战。",
+			"name" : "莱希",
+			"specialty" : {
+				"description" : "使用攻击加速魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：攻击加速",
+				"name" : "攻击加速"
+			}
+		}
+	}
+}

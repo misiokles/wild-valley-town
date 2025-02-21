@@ -1,0 +1,83 @@
+{
+	"fs_pygmy" : 
+	{
+		"name" :
+		{
+			"singular" : "甲虫",
+			"plural" : "甲虫"
+		},
+		"upgrades":
+		[
+			"fs_pygmyWarrior"
+		],
+		"level" : 1,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 40
+		},
+		"fightValue" : 60,
+		"aiValue" : 60,
+		"growth" : 16,
+		"attack" : 2,
+		"defense" : 4,
+		"hitPoints" : 5,
+        "horde" : 8,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 1,
+			"max" : 2
+		},
+		"advMapAmount" :
+		{
+			"min" : 20,
+			"max" : 50
+		},
+		"doubleWide" : false,
+		"abilities" :
+		{
+            "selfluck" : 
+			{ 
+				"type" : "LUCK",
+	            "val" : 1,
+	            "valueType" : "INDEPENDENT_MAX"
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"airShield":
+			{
+				"type":"GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"val" : 25
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv1.def",
+			"map" : "wildvalley/map/creatures/lv1map.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv1small.png",
+			"iconLarge" : "wildvalley/iconsBig/lv1large.png",
+			"timeBetweenFidgets" : 1.00,
+			
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+		},
+		"sound" :
+		{
+			"attack": "wildvalley/scarAtt.wav",
+			"defend": "wildvalley/scarDef.wav",
+			"killed": "wildvalley/scarDie.wav",
+			"move": "wildvalley/scarWalk.wav",
+			"wince": "wildvalley/scarHit.wav"
+		}
+	}
+}

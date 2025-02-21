@@ -1,0 +1,85 @@
+{
+	"savage" :
+	{
+		"animation" : {
+			"battle" : 
+			{
+				"female" : "wildvalley/classes/hermit/battle.def",
+				"male"   : "wildvalley/classes/hermit/battle.def"
+			}
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : { 
+					"animation" : "wildvalley/classes/hermit/adventure.def",
+					"editorAnimation": "wildvalley/classes/hermit/adventure.def" 
+				}
+			}
+		},
+		"name" : "牧虫使者",
+		"faction" : "wildvalley",
+		"commander" : "fs_healer",
+		"affinity" : "might",
+		"primarySkills" :
+		{
+			"attack"     : 2,
+			"defence"    : 2,
+			"spellpower" : 1,
+			"knowledge"  : 1
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 25,
+			"knowledge"  : 25
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 30,
+			"defence"    : 30,
+			"spellpower" : 20,
+			"knowledge"  : 20
+		},
+		"secondarySkills" :
+		{
+			"airMagic" : 7,
+			"archery" : 2,
+			"armorer" : 4,
+			"eagleEye" : 3,
+			"earthMagic" : 5,
+			"fireMagic" : 2,
+			"intelligence" : 6,
+			"leadership" : 5,
+			"learning" : 7,
+			"logistics" : 5,
+			"luck" : 2,
+			"mysticism" : 2,
+			"navigation" : 1,
+			"offence" : 6,
+			"pathfinding" : 6,
+			"resistance" : 5,
+			"scholar" : 2,
+			"scouting" : 6,
+			"sorcery" : 3,
+			"tactics" : 8,
+			"waterMagic" : 5,
+			"wisdom" : 5,
+			"firstAid" : 5
+		},
+		"defaultTavern" : 4,
+		"tavern" :
+		{
+			"castle" : 3,
+			"conflux" : 2,
+			"dungeon" : 4,
+			"fortress" : 8,
+			"rampart" : 8,
+			"stronghold" : 4,
+			"wildvalley" : 9,
+			"necropolis" : 0,
+			"inferno" : 0,
+			"tower" : 0
+		}
+	}
+}

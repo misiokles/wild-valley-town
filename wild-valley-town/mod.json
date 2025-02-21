@@ -1,0 +1,89 @@
+{
+	"name" : "Wild Valley town",
+	"description" : "Wild Valley town",
+	"author" : "红枫居士",
+	"contact" : "http://vcmi.eu/",
+	"version" : "0.5",
+	"language": "chinese",
+	//"depends" : ["tidesofWar"],
+	"chinese":
+	{
+		"name": "荒谷",
+		"description": "新城镇荒谷"
+	},
+	"modType" : "Town",
+        "factions" : [
+		"config/wildvalley/town/buildings.json",
+		"config/wildvalley/town/faction.json",
+		"config/wildvalley/town/siege.json",
+		"config/wildvalley/town/spells.json",
+		"config/wildvalley/town/structures.json",
+		"config/wildvalley/town/puzzle.json"
+        ],
+	"creatures" :
+	[		
+        "config/wildvalley/creatures/lv1pygmy.json",
+		"config/wildvalley/creatures/lv1upygmyWarrior.json",
+		"config/wildvalley/creatures/lv2birdStalker.json",
+		"config/wildvalley/creatures/lv2uskyHunter.json",
+		"config/wildvalley/creatures/lv2u2.json",
+		"config/wildvalley/creatures/lv3stag.json",
+		"config/wildvalley/creatures/lv3uhighStag.json",
+		"config/wildvalley/creatures/lv4priestess.json",
+		"config/wildvalley/creatures/lv4uhighPriestess.json",
+		"config/wildvalley/creatures/lv5giantSpider.json",
+		"config/wildvalley/creatures/lv5uancientSpider.json",		
+		"config/wildvalley/creatures/lv6Giant.json",
+		"config/wildvalley/creatures/lv6umountainGian.json",
+		"config/wildvalley/creatures/lv6bhippogriff.json",
+		"config/wildvalley/creatures/lv6bugreatHippogriff.json",
+		"config/wildvalley/creatures/lv7centamonthThrower.json",
+		"config/wildvalley/creatures/lv7ucentamonthHunter.json",
+		"config/wildvalley/creatures/comhealer.json",
+		"config/wildvalley/creatures/stack_exp.json"
+	],
+	"heroClasses" :
+	[
+
+		"config/wildvalley/classes/runemaster.json",
+		"config/wildvalley/classes/savage.json"
+	],
+	"heroes" :
+	[
+		"config/wildvalley/heroes/abok.json",
+		"config/wildvalley/heroes/aker.json",
+		"config/wildvalley/heroes/aodh.json",
+		"config/wildvalley/heroes/cerna.json",
+		"config/wildvalley/heroes/colossus.json",
+		"config/wildvalley/heroes/danu.json",
+		"config/wildvalley/heroes/eheca.json",
+		"config/wildvalley/heroes/lempo.json",
+		"config/wildvalley/heroes/ogma.json",
+		"config/wildvalley/heroes/tapio.json",
+		"config/wildvalley/heroes/inti.json",
+		"config/wildvalley/heroes/taloc.json",
+		"config/wildvalley/heroes/strib.json",
+		"config/wildvalley/heroes/kawa.json",
+		"config/wildvalley/heroes/horae.json",
+		"config/wildvalley/heroes/leshy.json",
+		"config/wildvalley/heroes/moss.json",
+		"config/wildvalley/heroes/huldra.json",
+		"config/wildvalley/heroes/olun.json",
+		"config/wildvalley/heroes/shaxas.json",
+		"config/wildvalley/heroes/xericks.json",
+		"config/wildvalley/heroes/wrlik.json"
+	],
+	"spells" :
+	[
+		"config/wildvalley/NewOldSpells/airWeak.json",
+		"config/wildvalley/NewOldSpells/airWeakness.json",
+		"config/wildvalley/NewOldSpells/earthWeakness.json",
+		"config/wildvalley/NewOldSpells/fireWeakness.json",
+		"config/wildvalley/NewOldSpells/waterWeakness.json",
+		"config/wildvalley/NewOldSpells/counterProtectX.json",
+		"config/wildvalley/NewOldSpells/lightningForce.json"
+	],
+	"objects" : [ 
+		"config/wildvalley/dwellings"
+	]
+}

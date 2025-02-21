@@ -1,0 +1,111 @@
+{
+	"fs_Giant":
+	{
+		"name" :
+		{
+			"plural" : "迷虫树妖",
+			"singular" : "迷虫树妖"
+		},
+		"advMapAmount" :
+		{
+			"min" : 5,
+			"max" : 12
+		},
+		"faction" : "wildvalley",
+		"upgrades": ["fs_MountainGian"],
+		"level" : 6,
+		"attack" : 10,
+		"defense" : 16,
+		"doubleWide" : true,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 20
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+		"speed" : 4,
+		"fightValue" : 1650,
+		"aiValue" : 1940,
+		"cost" :
+		{
+			"gold" : 1000
+		},
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv6.def",
+			"map" : "wildvalley/map/creatures/lv6map.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv6small.png",
+			"iconLarge" : "wildvalley/iconsBig/lv6large.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		
+		"sound" :
+		{
+			"attack": "TREEATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "TREEKILL.wav",
+			"move": "TREEMOVE.wav",
+			"wince": "TREEWNCE.wav"
+               },
+		"abilities" :
+		{
+			"casts bind after attack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",	//72 
+				"val" : 100,
+			},
+			"spellPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 15
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 6
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 2
+			},
+			"summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.fs_pygmyWarrior",
+				"val" : 40,
+			},
+			"easy to burn-fireball" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 70,
+				"subtype" : "spell.fireball"	//21
+			},
+			"easy to burn-inferno" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 70,
+				"subtype" : "spell.inferno"	//22
+			},
+			"easy to burn-armageddon" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 70,
+				"subtype" : "spell.armageddon"	//26
+			}
+		}
+	}
+}
+
+
+

@@ -1,0 +1,162 @@
+{
+	"waterWeakness":
+	{
+		"type": "combat", 
+		"name": "弱化水抗",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},
+		"level": 3,
+		"power": 10,
+		"defaultGainChance": 3, //提供通用基本概率参数
+		"gainChance":
+		{}, //提供按城镇的概率参数
+ 
+ 
+		//forgetfulness animation
+		"animation":{
+			"affect":["C08SPW5"], //动画
+			//"projectile":[{"defName":"C07SPA0"}]//???
+		},
+ 
+		"flags" : {"negative": true},
+ 
+ 
+		"graphics":
+		{
+			"iconBook": "wildvalley/spells/waterWeakness1.bmp", //魔法书中图标
+			"iconScroll": "wildvalley/spells/waterWeakness2.bmp", //卷轴中图标
+			"iconScenarioBonus": "wildvalley/spells/waterWeakness3.bmp", //预览中图标
+			"iconEffect": "wildvalley/spells/waterWeakness4.bmp" //受身图标
+			//免疫图标"iconImmune": "NewOldSpells/confusionImmune.bmp"
+		},
+
+		"sounds":
+		{
+			"cast": "WEAKNESS" //音效
+		},
+		"counters" : {
+			"spell.protectWater": true
+		},
+		"targetType" : "CREATURE",
+		"targetCondition" : {
+			"allOf" : {}
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				}	
+			},
+			"none":
+			{
+				"range": "0",
+				"power": 1,
+				"cost": 15, //法力消耗
+
+				"battleEffects":{
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": false,
+					"bonus":
+					{
+					"lifeEffect":
+                    {
+                        "type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.water",
+						"val" : -20, 
+						"duration" : "N_TURNS"
+					}
+				}
+			}
+				},
+				"description": "{弱化水抗}\n\n目标敌军水系魔法抗性降低20%。"
+			},
+			"basic":
+			{
+				"range": "0",
+				"power": 1,
+				"cost": 12, //法力消耗
+
+				"battleEffects":{
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": false,
+					"bonus":
+					{
+					"lifeEffect":
+                    {
+                        "type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.water",
+						"val" : -40, 
+						"duration" : "N_TURNS"
+					}
+				}
+			}
+				},
+				"description": "{初级弱化水抗}\n\n目标敌军水系魔法抗性降低40%。"
+			},
+			"advanced":
+			{
+				"range": "0",
+				"power": 1,
+				"cost": 12, //法力消耗
+
+				"battleEffects":{
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": false,
+					"bonus":
+					{
+					"lifeEffect":
+                    {
+                        "type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.water",
+						"val" : -60, 
+						"duration" : "N_TURNS"
+					}
+				}
+			}
+				},
+				"description": "{中级弱化水抗}\n\n目标敌军水系魔法抗性降低60%。"
+			},
+			"expert":
+			{
+				"range": "X",
+				"power": 1,
+				"cost": 12, //法力消耗
+
+				"battleEffects":{
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": false,
+					"bonus":
+					{
+					"lifeEffect":
+                    {
+                        "type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.water",
+						"val" : -60, 
+						"duration" : "N_TURNS"
+					}
+				}
+			}
+				},
+				"description": "{高级弱化水抗}\n\n所有敌军水系魔法抗性降低60%。"
+			}
+		}
+	}
+}

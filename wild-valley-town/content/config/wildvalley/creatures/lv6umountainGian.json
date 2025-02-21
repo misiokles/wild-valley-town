@@ -1,0 +1,115 @@
+{
+	"fs_MountainGian":
+	{
+		"name" :
+		{
+			"plural" : "虫栖树妖",
+			"singular" : "虫栖树妖"
+		},
+		"advMapAmount" :
+		{
+			"min" : 5,
+			"max" : 12
+		},
+		"faction" : "wildvalley",
+		"level" : 6,
+		"attack" : 10,
+		"defense" : 18,
+		"doubleWide" : true,
+		"damage" :
+		{
+			 "min" : 10,
+			 "max" : 20
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+		"speed" : 6,
+		"fightValue" : 1949,
+		"aiValue" : 2252,
+		"cost" :
+		{
+			"gold" : 1300
+		},
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv6up.def",
+			"map" : "wildvalley/map/creatures/lv6upmap.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv6upsmall.png",
+			"iconLarge" : "wildvalley/iconsBig/lv6uplarge.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		
+		"sound" :
+		{
+			"attack": "TREEATTK.wav",
+			"defend": "TREEDFND.wav",
+			"killed": "TREEKILL.wav",
+			"move": "TREEMOVE.wav",
+			"wince": "TREEWNCE.wav"
+                },
+		"abilities" :
+		{
+			"casts bind after attack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.bind",	//72 
+				"val" : 100,
+			},
+			"increaseManaCost" :
+			{
+				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+				"val" : 5
+			},
+			"spellPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 18
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 12
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.lightningBolt",
+				"val" : 2
+			},
+			"summonGuardians" :
+			{
+				"type" : "SUMMON_GUARDIANS",
+				"subtype" : "creature.fs_birdStalker",
+				"val" : 20,
+			},
+			"easy to burn-fireball" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 70,
+				"subtype" : "spell.fireball"	//21
+			},
+			"easy to burn-inferno" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 70,
+				"subtype" : "spell.inferno"	//22
+			},
+			"easy to burn-armageddon" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 70,
+				"subtype" : "spell.armageddon"	//26
+			}
+		}
+	}
+}
+
+
+

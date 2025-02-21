@@ -1,0 +1,45 @@
+{
+	"fs_colossus" :
+	{
+		"class" : "savage",
+		"female" : true,
+		"images" :
+		{
+			"large" : "wildvalley/heroes/colossus/large.png",
+			"small" : "wildvalley/heroes/colossus/small.png",
+			"specialtyLarge" : "wildvalley/heroes/colossus/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/colossus/ssmall.png"
+		},
+                "army" :
+		[
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			},
+		],
+		"texts" :
+		{
+			"name" : "克罗斯",
+			"biography" : "战争使克罗斯失去了父母，十几岁的年纪就需要到社会上讨生活，好在她有一个哥哥，使她不会受人欺负。这样艰难地在小镇上生活几年，有一天她遇到了一群年轻人，要到南方寻找新的和平居所。年轻人的想法打动了克罗斯，她加入了队伍，后来在不断努力下，她成长为巨蛛统帅。",
+			"specialty" :
+			{
+				"description" : "达到5级以后提高古巨蛛或摄魂巨蛛的攻击力与防御力。",
+				"tooltip" : "生物强化：古巨蛛",
+				"name" : "古巨蛛",
+			}
+		},
+		"specialty" : {
+			"creature" : "fs_giantSpider"
+		}		
+	}
+}

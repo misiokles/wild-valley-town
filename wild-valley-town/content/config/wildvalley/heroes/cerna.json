@@ -1,0 +1,42 @@
+{
+	"fs_cerna" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "savage",
+		"female" : true,
+		"images" : {
+			"large" : "wildvalley/heroes/cerna/large.bmp",
+			"small" : "wildvalley/heroes/cerna/small.bmp",
+			"specialtyLarge" : "wildvalley/heroes/cerna/slarge.bmp",
+			"specialtySmall" : "wildvalley/heroes/cerna/ssmall.bmp"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "archery" }
+		],
+		"specialty": //+1 dmg
+			{
+				"bonuses":{
+				"damage":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": "creatureDamageBoth",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER"
+					}
+				}
+			},
+		"texts" : {
+			"biography" : "塞尔纳是荒谷势力成立初期解救的木精灵，她是位优秀的精灵弓箭手，多年的战斗经历使她掌握了很多战斗技巧。但是一次任务中的意外，她被敌人俘虏，幸好及时遇到了荒谷这群人，才没有耽误任务，而她的任务就是解救被奴役的木精灵。",
+			"name" : "塞尔纳",
+			"specialty" : {
+				"description" : "所带领生物的最小伤害值和最大伤害值各增加1。",
+				"tooltip" : "所有生物伤害+1",
+				"name" : "战争狂人"
+			}
+		}
+	}
+}

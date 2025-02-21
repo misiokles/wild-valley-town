@@ -1,0 +1,102 @@
+{
+	"fs_hippogriff" : 
+	{
+		"name" :
+		{
+			"singular" : "牧虫鹫",
+			"plural" : "牧虫鹫"
+		},
+		"upgrades":
+		[
+			"fs_greatHippogriff"
+		],
+		"level" : 6,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 1000
+		},
+		"fightValue" : 1692,
+		"aiValue" : 1983,
+		"growth" : 2,
+		
+		"attack" : 15,
+		"defense" : 14,
+		"hitPoints" : 100,
+		"speed" : 8,
+		"damage" :
+		{
+			"min" : 17,
+			"max" : 23
+		},
+		"advMapAmount" :
+		{
+			"min" : 5,
+			"max" : 12
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"flying" : {
+				"type": "FLYING"
+			},
+			"regenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 30
+			},
+			"magicMirror":{ 
+				"type" : "MAGIC_MIRROR",
+				"val" : 15
+			},
+			"hatelv3" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.fs_stag",
+				"val" : 50
+			},
+			"hatelv3up" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.fs_highStag",
+				"val" : 50
+			},
+			"hatelv5" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.fs_giantSpider",
+				"val" : 50
+			},
+			"hatelv5up" : 
+			{
+				"type" : "HATE",
+				"subtype" : "creature.fs_ancientSpider",
+				"val" : 50
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/griff1.def",
+			"map" : "wildvalley/map/creatures/griff1map.def",
+			"iconSmall" : "wildvalley/iconsSmall/griff1s.png",
+			"iconLarge" : "wildvalley/iconsBig/griff1.png",
+			"timeBetweenFidgets" : 0.80,
+			
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 22.00,
+				"attack" : 0.90
+			}
+		},
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		}
+	}
+}

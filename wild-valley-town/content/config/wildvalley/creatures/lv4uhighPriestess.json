@@ -1,0 +1,106 @@
+{
+	"fs_highPriestess" : 
+	{
+		"name" :
+		{
+			"singular" : "牧虫女巫医",
+			"plural" : "牧虫女巫医"
+		},
+		"level" : 4,
+		"special" : false,
+		"faction" : "wildvalley", 
+		"cost" : 
+		{
+			"gold" : 400
+		},
+		"fightValue" : 470,
+		"aiValue" : 685,
+		"growth" : 4,
+        "attack" : 11,
+		"defense" : 8,
+		"hitPoints" : 27,
+		"shots" : 18,
+		"speed" : 6,
+		"damage" :
+		{
+			"min" : 8,
+			"max" : 10
+		},
+		"spellPoints" : 3,
+		"advMapAmount" :
+		{
+			"min" : 11,
+			"max" : 17
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter": {
+				"type":"SHOOTER"
+			},
+			"magic": {
+				"type": "MAGIC_MIRROR",
+				"val": 20
+			},
+			"fighter": {
+				"type": "NO_MELEE_PENALTY"
+			},
+			"healLife":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.cure",
+				"val" : 2
+			},
+			"healPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.cure",
+				"val" : 30
+			},
+
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}
+		},
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "wildvalley/battle/creatures/lv4up.def",
+			"map" : "wildvalley/map/creatures/lv4upmap.def",
+			"iconSmall" : "wildvalley/iconsSmall/lv4upsmall.png",
+			"iconLarge" : "wildvalley/iconsBig/lv4uplarge.png",
+			"timeBetweenFidgets" : 1.00,
+			
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"idle" : 12.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile": "wildvalley/projectiles/green.def",
+				"attackClimaxFrame" : 8,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 0,
+					"lowerY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"upperX" : 0,
+					"upperY" : 0
+				}
+			}
+		},
+		"sound" :
+		{
+			"attack": "ZELTATTK.wav",
+			"defend": "ZELTDFND.wav",
+			"killed": "ZELTKILL.wav",
+			"move": "ZELTMOVE.wav",
+			"shoot": "ZELTSHOT.wav",
+			"wince": "ZELTWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"fs_taloc" : {
+		"army" : [
+			{ "creature" : "fs_pygmy", "max" : 24, "min" : 16 },
+			{ "creature" : "fs_birdStalker", "max" : 8, "min" : 5 },
+			{ "creature" : "fs_stag",  "max" : 4, "min" : 3 }
+		],
+		"class" : "runemaster",
+		"female" : true,
+		"spellbook" : [ "magicArrow" ],
+		"images" : {
+			"large" : "wildvalley/heroes/taloc/large.png",
+			"small" : "wildvalley/heroes/taloc/small.png",
+			"specialtyLarge" : "wildvalley/heroes/taloc/slarge.png",
+			"specialtySmall" : "wildvalley/heroes/taloc/ssmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "sorcery" },
+			{ "level" : "basic", "skill" : "airMagic" }
+		],
+		"specialty" : {
+			"bonuses" : {
+				"magicArrow" : {
+					"subtype" : "spell.magicArrow",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "塔洛克曾经是位精灵魔法师，与塔皮奥是一对恋人，在解救被俘虏的精灵中发挥了很大的作用。经过这次事件后，塔洛克也决定加入荒谷势力，随恋人一起隐居。",
+			"name" : "塔洛克",
+			"specialty" : {
+				"description" : "使用魔法神箭魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
+				"tooltip" : "魔法增强：魔法神箭",
+				"name" : "魔法神箭"
+			}
+		}
+	}
+}
