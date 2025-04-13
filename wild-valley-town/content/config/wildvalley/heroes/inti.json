@@ -29,17 +29,17 @@
 					"propagator": "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"limiters" : [ "OPPOSITE_SIDE" ],
-					"stacking" : "面对-1士气特长的英雄"
+					"stacking" : "Heroes facing -1 morale specialties"
 					}
 				}
 			}	,
 		"texts" : {
-			"biography" : "印蒂曾经是位精灵德鲁伊，因敌人的袭击，她成为了俘虏。好在塞尔纳带领着荒谷的人类及时出现，印蒂被成功解救。印蒂的能力是利用周围的自然环境，对敌人形成压迫感，影响敌人的情绪，进而降低敌军的士气。",
-			"name" : "印蒂",
+			"biography" : "Indy was once a druid elf who was captured due to an enemy attack. Fortunately, Cerna led the humans to the Wild Valley in time, and Indy was rescued. Indy's ability is to use the natural environment to make the enemy feel depressed, affecting their mood and thus lowering their morale.",
+			"name" : "Indy",
 			"specialty" : {
-				"description" : "战斗中使敌人士气-1。",
-				"tooltip" : "敌方-1士气",
-				"name" : "-1士气"
+				"description" : "Morale -1 to the enemy in combat.",
+				"tooltip" : "Enemy -1 Morale",
+				"name" : "-1 Morale"
 			}
 		}
 	}

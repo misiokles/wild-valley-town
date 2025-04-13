@@ -29,13 +29,13 @@
 		],
 		"texts" :
 		{
-			"name" : "赛里克斯",
-			"biography" : "赛里克斯是为了躲避仇人的追杀，带着家人加入了荒谷，没想到这成为后来报仇雪恨的契机。荒谷势力安定后缺乏保护大家安全的兵种，虫神古迹的牧虫方法赛里克斯特别重视，经过层层选拔，她成功成为地穴魔虫的统帅。",
+			"name" : "Xericks",
+			"biography" : "Xericks, to escape the pursuit of her enemies, joined the Wild Valley with her family. What she didn't expect was that it would become an opportunity for revenge later. The Wild Valley army makes up for the lack of soldiers to protect the safety of every resident, especially the Idol of the Bug God. Due to her pastoral methods, Xericks took special attention, and became the best commander of the Tomb Bettles by right.",
 			"specialty" :
 			{
-				"description" : "达到3级以后提高地穴魔虫或地穴狂魔虫的攻击力与防御力。",
-				"tooltip" : "生物强化：地穴魔虫",
-				"name" : "地穴魔虫",
+				"description" : "Increases Speed of any Tomb Bettles or Tomb Bettle-Stags by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Tomb Bettles",
+				"name" : "Tomb Bettles",
 			}
 		},
 		"specialty" : {

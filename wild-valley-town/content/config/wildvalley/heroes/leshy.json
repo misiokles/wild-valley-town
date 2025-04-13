@@ -28,12 +28,12 @@
 			}
 		},
 		"texts" : {
-			"biography" : "莱希是荒谷某位魔法学徒的导师，年轻时也曾叱咤风云，现在已不复当年之勇。但为了学生和家人能在这个纷乱的世界中安然生活，他再次拿起了魔法师，为和平而战。",
-			"name" : "莱希",
+			"biography" : "Leshy is the mentor of a magical student in the Wild Valley, he was a powerful man in his youth, but now he is no longer as brave as he once was. But for the sake of his students and their families living in peace in this troubled world, he has taken up magic again to fight for peace.",
+			"name" : "Leshy",
 			"specialty" : {
-				"description" : "使用攻击加速魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：攻击加速",
-				"name" : "攻击加速"
+				"description" : "Casts Speed with increased effect, based on hero level compared to the level of the target unit (the bonus is greater the lower the target's level).",
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste"
 			}
 		}
 	}

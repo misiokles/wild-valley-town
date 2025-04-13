@@ -3,26 +3,29 @@
 	"description" : "Wild Valley town",
 	"author" : "红枫居士",
 	"contact" : "http://vcmi.eu/",
-	"version" : "0.5",
-	"language": "chinese",
-	//"depends" : ["tidesofWar"],
+	"version" : "0.6",
+	"english":  
+	{
+		"name": "Wild Valley town",
+		"description": "VCMI new town."
+	}, 
 	"chinese":
 	{
 		"name": "荒谷",
 		"description": "新城镇荒谷"
 	},
 	"modType" : "Town",
-        "factions" : [
+	"factions" : [
 		"config/wildvalley/town/buildings.json",
 		"config/wildvalley/town/faction.json",
 		"config/wildvalley/town/siege.json",
 		"config/wildvalley/town/spells.json",
 		"config/wildvalley/town/structures.json",
 		"config/wildvalley/town/puzzle.json"
-        ],
+	],
 	"creatures" :
 	[		
-        "config/wildvalley/creatures/lv1pygmy.json",
+		"config/wildvalley/creatures/lv1pygmy.json",
 		"config/wildvalley/creatures/lv1upygmyWarrior.json",
 		"config/wildvalley/creatures/lv2birdStalker.json",
 		"config/wildvalley/creatures/lv2uskyHunter.json",

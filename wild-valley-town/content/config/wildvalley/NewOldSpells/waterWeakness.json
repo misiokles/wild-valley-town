@@ -2,7 +2,7 @@
 	"waterWeakness":
 	{
 		"type": "combat", 
-		"name": "弱化水抗",
+		"name": "Water Weakness",
 		"school":
 		{
 			"air": false,
@@ -80,7 +80,7 @@
 				}
 			}
 				},
-				"description": "{弱化水抗}\n\n目标敌军水系魔法抗性降低20%。"
+				"description": "{Water Weakness}\n\nReduces the selected enemy unit's spell damage reduction for water magic by 20%."
 			},
 			"basic":
 			{
@@ -105,7 +105,7 @@
 				}
 			}
 				},
-				"description": "{初级弱化水抗}\n\n目标敌军水系魔法抗性降低40%。"
+				"description": "{Basic Water Weakness}\n\nReduces the selected enemy unit's spell damage reduction for water magic by 40%."
 			},
 			"advanced":
 			{
@@ -130,7 +130,7 @@
 				}
 			}
 				},
-				"description": "{中级弱化水抗}\n\n目标敌军水系魔法抗性降低60%。"
+				"description": "{Advanced Water Weakness}\n\nReduces the selected enemy unit's spell damage reduction for water magic by 60%."
 			},
 			"expert":
 			{
@@ -155,7 +155,7 @@
 				}
 			}
 				},
-				"description": "{高级弱化水抗}\n\n所有敌军水系魔法抗性降低60%。"
+				"description": "{Expert Water Weakness}\n\nReduces all enemy units spell damage reduction for water magic by 60%."
 			}
 		}
 	}

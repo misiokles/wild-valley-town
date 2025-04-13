@@ -27,12 +27,12 @@
 				}				
 			},
 		"texts" : {
-			"biography" : "胡尔德拉是一位美丽可爱的精灵，栖息在荒谷附近的森林中，能与这里的所有生物成为好朋友。而每当外来者进入她的领地，胡尔德拉都会使其落入陷阱。她加入荒谷是为了报答荒谷的人类对她姐妹的救命之恩。",
-			"name" : "胡尔德拉",
+			"biography" : "Huldra is a beautiful and sweet elf who dwells in the forests near the Wlld Valley and can befriend all the creatures here. And when a stranger enters her territory, Huldra forces him into a trap. She joins the Wlld Valley to repay the people of the Wlld Valley for saving her sisters' lives.",
+			"name" : "Huldra",
 			"specialty" : {
-				"description" : "使英雄无法离开战场（逃跑或投降）。",
-				"name" : "禁足",
-				"tooltip" : "双方英雄都无法逃跑或投降"
+				"description" : "Keeps the hero from leaving the battlefield (fleeing or surrendering).",
+				"name" : "Battle no fleeing",
+				"tooltip" : "Neither hero can escape or surrender"
 			}
 		}
 	}

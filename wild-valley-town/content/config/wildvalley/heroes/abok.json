@@ -30,13 +30,13 @@
 		],
 		"texts" :
 		{
-			"name" : "阿博克",
-			"biography" : "阿博克是一位落魄的年轻贵族，荒谷势力最初的四位缔造者之一。长年的战争使她的家族元气大伤，急需和平的环境休养生息，为了保护家人，她经过多年的努力学会了驯养虫类以抵御外敌。",
+			"name" : "Abok",
+			"biography" : "Abok is an oppressed young noblewoman, one of the four founders of the kingdom Wild Walley. Her family has been ravaged by years of war and desperately needs a peaceful environment to regain their strength. To protect her family, after years of hard work, she has learned to tame fireflies to defend herself from outside enemies.",
 			"specialty" :
 			{
-				"description" : "达到2级以后提高荧光虫或电光虫的攻击力与防御力。",
-				"tooltip" : "生物强化：荧光虫",
-				"name" : "荧光虫",
+				"description" : "Increases Speed of any Fireflies, Firefly Stalkers or Firefly Hunters by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Fireflies",
+				"name" : "Fireflies",
 			}
 		},
 		"specialty" : {

@@ -28,13 +28,13 @@
 		],
 		"texts" :
 		{
-			"name" : "沙克斯",
-			"biography" : "沙克斯曾经是帝国的军人，指挥过千人级别的小型战役，有着丰富的战斗经验。现在他早已退役，回到家乡的小城市，但战争使他无法平静生活，只好加入荒谷一起迁移。正因为沙克斯指挥过大型战役，训练虫群的任务他能愉快胜任。",
+			"name" : "Shaxas",
+			"biography" : "Shaxas was once a soldier of the Empire, commanding small battles at the level of a thousand men and having a wealth of combat experience. Now he had long since retired and returned to his hometown small town, but the war made his peaceful life impossible, so he had to join the Wild Valley to migrate together. Precisely because Shaxas has commanded major battles, the task of training the swarms is one he will gladly handle.",
 			"specialty" :
 			{
-				"description" : "达到1级以后提高甲虫或金甲虫的攻击力与防御力。",
-				"tooltip" : "生物强化：甲虫",
-				"name" : "甲虫",
+				"description" : "Increases Speed of any Beetles or Golden Beetles by 1 and their Attack and Defense skills by 5% for every 1 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Beetles",
+				"name" : "Beetles",
 			}
 		},
 		"specialty" : {

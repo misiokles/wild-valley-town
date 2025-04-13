@@ -25,17 +25,17 @@
 					"propagator": "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"limiters" : [ "OPPOSITE_SIDE" ],
-					"stacking" : "面对-1运气特长的英雄"
+					"stacking" : "Heroes facing -2 luck specialties"
 					}
 				}
 			},
 		"texts" : {
-			"biography" : "奥格玛年轻时长相俊美，是帝国中的美男子，他立志从军以博取贵族爵位。无奈似乎是衰神附体，他在军队中总是不得志，任务执行总出状况，不得已只能离开军队。一次偶然的机会发现自己的衰运可以转移给别人，他重燃希望加入唯一接纳他的荒谷势力，准备在战场上证明自己。",
-			"name" : "奥格玛",
+			"biography" : "When he was young, Ogma was a handsome man in the empire, and he aspired to join the army in order to earn a noble title. However, it seems that he was possessed by a bad luck god, and he always failed in the army, and had no choice but to leave the army. After discovering by chance that his bad luck can be transferred to others, he rekindles his hope and joins the only army that accepts him, the Wild Walley and prepares to prove himself on the battlefield.",
+			"name" : "Ogma",
 			"specialty" : {
-				"description" : "战斗中使敌人运气-2。",
-				"tooltip" : "敌方-2运气",
-				"name" : "-2运气"
+				"description" : "Luck -2 to the enemy in combat.",
+				"tooltip" : "Enemy -2 Luck",
+				"name" : "-2 Luck"
 			}
 		}
 	}

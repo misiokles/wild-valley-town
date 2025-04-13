@@ -27,12 +27,12 @@
 			}
 			},
 		"texts" : {
-			"biography" : "奥德是某个乡村的小贵族，荒谷势力最初的四位缔造者之一。他曾经游历大陆遍访名师学习魔法，但是战争突然降临他的家乡，于是他不得不中断魔法的学习，回乡帮助家族寻找新的安全居所。",
-			"name" : "奥德",
+			"biography" : "Aodh is a petty nobleman from the countryside, one of the four founders of the kingdom Wild Walley. He once traveled across the continent to learn magic from masters, but when war suddenly came to his hometown, he had to interrupt his magic training and return home to help his family find a new, safe place to live.",
+			"name" : "Aodh",
 			"specialty" : {
-				"description" : "使所属部队的生命上限提高10%。",
-				"name" : "+10% 生命值",
-				"tooltip" : "使所属部队的生命上限提高10%。"
+				"description" : "Increases the hit points cap of the unit to which it belongs by 10%.",
+				"name" : "+10% Health",
+				"tooltip" : "Health Bonus: Hit Points Cap +10%"
 			}
 		}
 	}

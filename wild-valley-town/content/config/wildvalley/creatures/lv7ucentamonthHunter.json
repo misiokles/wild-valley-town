@@ -35,7 +35,7 @@
 		"hitPoints" : 250,
                 "doubleWide" : true,
 		"level" : 7,
-		"name" : { "plural" : "金刀螳螂", "singular" : "金刀螳螂" },
+		"name" : { "plural" : "Great Mantises", "singular" : "Great Mantis" },
 		"shots" : 0,
 		"sound" : {
 			"attack" : "wildvalley/SmtsATTK.wav",

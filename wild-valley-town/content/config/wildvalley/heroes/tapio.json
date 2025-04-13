@@ -37,12 +37,12 @@
 			}	
 		},
 		"texts" : {
-			"biography" : "塔皮奥是一位非常强大的精灵魔法师，精灵村落遇袭，大概率与他相关，消除魔法抗性的技能使他成为很多强大势力的目标。塔皮奥能被荒谷势力的人类解救，也是诸多巧合促成，鉴于他目前时刻处于危险中，他决定随荒谷势力一起隐居。",
-			"name" : "塔皮奥",
+			"biography" : "Tapio is a very powerful elven wizard, and the attacks on elven villages are most likely related to him, and his ability to remove resistance to magic makes him a target for many powerful forces. By coincidence, Tapio was rescued by the people of the Wild Valley army, and given that he is now in constant danger, he has chosen to live in seclusion with the Wild Valley army.",
+			"name" : "Tapio",
 			"specialty" : {
-				"description" : "消除战场上所有生物天生的魔法抗性。",
-				"name" : "穿透魔抗",
-				"tooltip" : "魔法增强：穿透魔抗"
+				"description" : "Removes the innate magic resistance of all creatures on the battlefield.",
+				"name" : "Special Bonus",
+				"tooltip" : "Special Bonus: Penetrating magic resistance"
 			}
 		}
 	}

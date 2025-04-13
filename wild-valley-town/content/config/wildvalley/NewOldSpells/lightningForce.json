@@ -2,7 +2,7 @@
 	"lightningForce":
 	{
 		"type": "combat", 
-		"name": "闪电力场",
+		"name": "Lightning Force",
 		"school":
 		{
 			"air": true,
@@ -63,7 +63,7 @@
 			},
 			"none":
 			{
-				"description": "{闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军1回合麻痹无法行动。\n",
+				"description": "{Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 1 turns.\n",
 	 
 				"cost": 14,
 				"power": 10,
@@ -84,7 +84,7 @@
 			},
 			"basic":
 			{
-				"description": "{初级闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军1回合麻痹无法行动。\n",
+				"description": "{Basic Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 1 turns.\n",
 	 
 				"cost": 11,
 				"power": 10,
@@ -105,7 +105,7 @@
 			},
 			"advanced":
 			{
-				"description": "{中级闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军2回合麻痹无法行动。\n",
+				"description": "{Advanced Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 2 turns.\n",
 	 
 				"cost": 11,
 				"power": 20,
@@ -126,7 +126,7 @@
 			},
 			"expert":
 			{
-				"description": "{高级闪电力场}\n\n发射闪电，攻击敌军，同时目标敌军2回合麻痹无法行动。\n",
+				"description": "{Expert Lightning Force}\n\nCauses a bolt of lightning to strike the selected unit. Unit becames paralyzed and unable to attack or retaliate for 2 turns.\n",
 	 
 				"cost": 11,
 				"power": 50,

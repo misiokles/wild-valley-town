@@ -3,8 +3,8 @@
 	{
 		"name" :
 		{
-			"singular" : "治愈师",
-			"plural" : "治愈师"
+			"singular" : "Healer",
+			"plural" : "Healers"
 		},
 		"level" : 0,
 		"special" : true,

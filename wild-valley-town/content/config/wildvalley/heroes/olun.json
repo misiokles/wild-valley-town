@@ -29,13 +29,13 @@
 		],
 		"texts" :
 		{
-			"name" : "奥伦",
-			"biography" : "奥伦是一位落魄的年轻贵族，荒谷势力最初的四位缔造者之一。早年家族经济实力比较强的时候，奥伦系统地学习了魔法，荒谷势力成立后，她为女巫团队的建立做出了突出的贡献，于是第一支女巫军团由她领导。",
+			"name" : "Olun",
+			"biography" : "Olun is a downtrodden young noblewoman, one of the four founders of the kingdom Wild Walley. In her early years, when her family was financially stronger, Olun systematically studied magic, and after the founding of the kingdom Wild Walley, she made an outstanding contribution to the creation of the Bug Ladies team, and it was she who led the first legion of Bug Ladies.",
 			"specialty" :
 			{
-				"description" : "达到4级以后提高牧虫女巫或牧虫女巫医的攻击力与防御力。",
-				"tooltip" : "生物强化：牧虫女巫",
-				"name" : "牧虫女巫",
+				"description" : "Increases Speed of any Bug Ladies or Bug Lady-Priestesses by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Bug Ladies",
+				"name" : "Bug Ladies",
 			}
 		},
 		"spellbook" :

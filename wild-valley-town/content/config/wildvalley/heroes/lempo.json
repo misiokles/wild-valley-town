@@ -29,12 +29,12 @@
 			}
 		},
 		"texts" : {
-			"biography" : "伦波天生就是个猎人，他精通狙击，拥有丰富的经验，曾经是帝国军队优秀的特种兵，即使在最困难的地形上也能追踪目标。后来他厌恶了贵族间的战争，选择加入荒谷开始和平的隐居生活。",
-			"name" : "伦波",
+			"biography" : "Lempo was born a hunter, he could shoot and had a wealth of experience. He was once an excellent Imperial Army fighter, able to track down targets even in the most inaccessible places. Later, he became disenchanted with the wars between the nobles and decided to join the Wild Valley to start a peaceful secluded life.",
+			"name" : "Lempo",
 			"specialty" : {
-				"description" : "在后勤学上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：后勤学",
-				"name" : "后勤学"
+				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
+				"name" : "Logistics"
 			}
 		}
 	}

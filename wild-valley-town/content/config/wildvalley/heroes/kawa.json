@@ -45,12 +45,12 @@
 			}
 		},
 		"texts" : {
-			"biography" : "卡瓦曾经是位箭术精湛的精灵德鲁伊，敌人袭击了她生活的精灵村庄，她被俘虏了，后来荒谷的人类解救了她。为了报答人类，卡瓦留下来帮助建立远程军队，荒谷中大多是战争中避难的老弱妇孺，于是这支军队以女性为主。",
-			"name" : "卡瓦",
+			"biography" : "Kawa was once an elven druid with excellent archery skills, but after enemies attacked the elven village where she lived, she was captured, and then the people of the Wild Valley rescued her. To repay the humans, Kava stayed behind to help raise a long-range army, mostly of women and children who had taken refuge from the war in the Wild Valley, so the army was predominantly female.",
+			"name" : "Kawa",
 			"specialty" : {
-				"description" : "射击专精使英雄可以使用高级大气神盾魔法，使牧虫女巫和牧虫女巫医射击不受距离和城墙障碍影响。",
-				"name" : "射击专精",
-				"tooltip" : "特殊奖励：射击专精"
+				"description" : "Can cast Air Shield spell with increased effectivenes. For Bug Ladies or Bug Lady-Priestesses no wall penalty and no range penalty.",
+				"name" : "Special ",
+				"tooltip" : "Special Bonus: Air Shield and Bug Ladies"
 			}
 		}
 	}

@@ -30,12 +30,12 @@
 			}
 		},
 		"texts" : {
-			"biography" : "达努曾经是一位效力于帝国的魔法师，长期的战争中她失去了许多战友和亲人，于是她开始厌恶战争。一次偶然的机会，达努遇到了迁移中的荒谷势力，寻找和平居所的目标使她立刻决定加入队伍。",
-			"name" : "达努",
+			"biography" : "Danu was once a sorceress in the service of the Empire, but she lost many of her comrades and loved ones in the long war and hated war. By chance, Danu came across the migrating army of the Wild Valley, and wanting to find a peaceful place to live, she immediately decided to join the army.",
+			"name" : "Danu",
 			"specialty" : {
-				"description" : "在魔力技能上每级得到5%的额外奖励。",
-				"tooltip" : "技能加成：魔力",
-				"name" : "魔力"
+				"description" : "Receives a 5% per level bonus to Sorcery skill.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery"
 			}
 		}
 	}

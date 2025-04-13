@@ -29,12 +29,12 @@
 			}
 		},
 		"texts" : {
-			"biography" : "斯特瑞丝也是这次解救精灵任务的重要伤害输出，她的魔法异常强大，同时她也暗恋着塔皮奥，于是最终她也加入了荒谷势力。",
-			"name" : "斯特瑞丝",
+			"biography" : "Strib also does a lot of damage in the mission to free the elves, her magic is unusually strong, and she's also in love with Tapio, so she ends up joining the Wild Valley army as well.",
+			"name" : "Strib",
 			"specialty" : {
-				"description" : "使用霹雳寒冰魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：霹雳寒冰",
-				"name" : "霹雳寒冰"
+				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater the lower the target's level).",
+				"tooltip" : "Spell Bonus: Ice Bolt",
+				"name" : "Ice Bolt"
 			}
 		}
 	}

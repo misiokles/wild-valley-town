@@ -31,12 +31,12 @@
 				}
 			},
 		"texts" : {
-			"biography" : "莫丝擅长利用地形设置各种陷阱，以迟滞敌军，赢得战斗的胜利。这次解救被俘虏的精灵的任务中，莫丝竭尽所能，艰难地完成了任务，他是塔洛克的好友，所以也加入了荒谷势力。",
-			"name" : "莫丝",
+			"biography" : "Moss knows how to use the terrain to set various traps to slow down the enemy and win the battle. On this mission to free the captured elves, Moss did his best and accomplished the mission with great difficulty. He is a close friend of Taloc, so he also joined the Wild Valley army.",
+			"name" : "Moss",
 			"specialty" : {
-				"description" : "战斗中使敌方速度-1",
-				"name" : "迟滞敌军",
-				"tooltip" : "敌方速度-1"
+				"description" : "Enemy speed -1 to the enemy in combat.",
+				"name" : "Delay the enemy army",
+				"tooltip" : "-1 Enemy Speed"
 			}
 		}
 	}

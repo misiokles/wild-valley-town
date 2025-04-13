@@ -31,7 +31,7 @@
 		"hitPoints" : 180,
         "doubleWide" : true,
 		"level" : 7,
-		"name" : { "plural" : "巨螳螂", "singular" : "巨螳螂" },
+		"name" : { "plural" : "Wild Mantises", "singular" : "Wild Mantis" },
 		"shots" : 0,
 		"sound" : {
 			"attack" : "wildvalley/SmtsATTK.wav",

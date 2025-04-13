@@ -30,13 +30,13 @@
 		],
 		"texts" :
 		{
-			"name" : "埃赫卡",
-			"biography" : "埃赫卡的父母都是猎人，她从小就生活在森林附近的村子里，每隔一段时间，父母就会带她去镇上的集市用猎物换取生活必需品。但是近几年的战争使小镇不太平，于是她们加入荒谷以求自保。小时候的生活使埃赫卡与树木有很强的亲和力，所以她成为荒谷势力中树妖统帅的不二人选。",
+			"name" : "Eheca",
+			"biography" : "Eheca's parents were hunters, and she grew up in a village near the forest, where every now and then her parents would take her to the town fair to trade their spoils for necessities. But due to the wars of the last few years, the town became turbulent, and they joined the Wild Valley to protect themselves. As a child, Eheca had a great love for trees, so she was perfect for the role of Treants commander in the Wild Valley troops.",
 			"specialty" :
 			{
-				"description" : "达到6级以后提高迷虫树妖或虫栖树妖的攻击力与防御力。",
-				"tooltip" : "技能加成：迷虫树妖",
-				"name" : "迷虫树妖",
+				"description" : "Increases Speed of any Treants or Insectivorous Treants by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Treants",
+				"name" : "Treants",
 			}
 		},
 		"specialty" : {

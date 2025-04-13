@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"fsSavageVillage" : {
-				"name" : "温室虫屋",
+				"name" : "Greenhouse",
 				"creatures" : [[ "fs_pygmy" ]],
 				"templates" : {
 					"default" : {
@@ -12,7 +12,7 @@
 				}
 			},
 			"fs_paradise" : {
-				"name" : "清泉溪流",
+				"name" : "Spring Creek",
 				"creatures" : [[ "fs_birdStalker" ]],
 				"templates" : {
 					"default" : {
@@ -23,7 +23,7 @@
 				}
 			},
 			"fs_forest" : {
-				"name" : "魔虫古洞",
+				"name" : "Dump Tomb",
 				"creatures" : [[ "fs_stag" ]],
 				"templates" : {
 					"default" : {	
@@ -33,7 +33,7 @@
 				}
 			},
 			"fs_GodessTemple" : {
-				"name" : "巫女神庙",
+				"name" : "Bug Lady Temple",
 				"creatures" : [[ "fs_priestess" ]],
 				"templates" : {
 					"default" : {
@@ -43,7 +43,7 @@
 				}
 			},
 			"fs_SpiderDomain" : {
-				"name" : "古蛛领地",
+				"name" : "Spider Temple",
 				"creatures" : [[ "fs_giantSpider" ]],
 				"guards" : true,
 				"templates" : {
@@ -54,7 +54,7 @@
 				}
 			},
 			"fs_Stonehenge'sNest" : {
-				"name" : "崖柏鹫巢",
+				"name" : "Hippogriff Nest",
 				"creatures" : [[ "fs_hippogriff" ]],
 				"guards" : true,
 				"templates" : {
@@ -65,7 +65,7 @@
 				}
 			},
 			"fs_gudong" : {
-				"name" : "魔法森林",
+				"name" : "Quiet Oakwood",
 				"creatures" : [[ "fs_Giant" ]],
 				"templates" : {
 					"default" : {
@@ -75,7 +75,7 @@
 				}
 			},
 			"fs_FieldRuins" : {
-				"name" : "虫神古迹",
+				"name" : "Mantis Temple",
 				"creatures" : [[ "fs_centamonthThrower" ]],
 				"guards" : true,
 				"templates" : {

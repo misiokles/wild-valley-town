@@ -2,7 +2,7 @@
 	"fireWeakness":
 	{
 		"type": "combat", 
-		"name": "弱化火抗",
+		"name": "Fire Weakness",
 		"school":
 		{
 			"air": false,
@@ -80,7 +80,7 @@
 				}
 			}
 				},
-				"description": "{弱化火抗}\n\n目标敌军火系魔法抗性降低20%。"
+				"description": "{Fire Weakness}\n\nReduces the selected enemy unit's spell damage reduction for fire magic by 20%."
 			},
 			"basic":
 			{
@@ -105,7 +105,7 @@
 				}
 			}
 				},
-				"description": "{初级弱化火抗}\n\n目标敌军火系魔法抗性降低40%。"
+				"description": "{Basic Fire Weakness}\n\nReduces the selected enemy unit's spell damage reduction for fire magic by 40%."
 			},
 			"advanced":
 			{
@@ -130,7 +130,7 @@
 				}
 			}
 				},
-				"description": "{中级弱化火抗}\n\n目标敌军火系魔法抗性降低60%。"
+				"description": "{Advanced Fire Weakness}\n\nReduces the selected enemy unit's spell damage reduction for fire magic by 60%."
 			},
 			"expert":
 			{
@@ -155,7 +155,7 @@
 				}
 			}
 				},
-				"description": "{高级弱化火抗}\n\n所有敌军火系魔法抗性降低60%。"
+				"description": "{Expert Fire Weakness}\n\nReduces all enemy units spell damage reduction for fire magic by 60%."
 			}
 		}
 	}

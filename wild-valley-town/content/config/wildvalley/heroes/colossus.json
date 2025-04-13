@@ -29,13 +29,13 @@
 		],
 		"texts" :
 		{
-			"name" : "克罗斯",
-			"biography" : "战争使克罗斯失去了父母，十几岁的年纪就需要到社会上讨生活，好在她有一个哥哥，使她不会受人欺负。这样艰难地在小镇上生活几年，有一天她遇到了一群年轻人，要到南方寻找新的和平居所。年轻人的想法打动了克罗斯，她加入了队伍，后来在不断努力下，她成长为巨蛛统帅。",
+			"name" : "Colossus",
+			"biography" : "The war left Colossus without parents, and as a teenager she had to go out into society to earn a living. Luckily, she had an older brother who kept her safe from bullying. After a few years of such an uneasy life in the city, one day she meets a group of young men traveling south in search of a new peaceful place to live. The ideas of the young men impressed Colossus and she joined the army and later, continuing to work hard, she grew up to become commander of the Giant Spiders.",
 			"specialty" :
 			{
-				"description" : "达到5级以后提高古巨蛛或摄魂巨蛛的攻击力与防御力。",
-				"tooltip" : "生物强化：古巨蛛",
-				"name" : "古巨蛛",
+				"description" : "Increases Speed of any Giant Spiders or Ancient Spiders by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Giant Spiders",
+				"name" : "Giant Spiders",
 			}
 		},
 		"specialty" : {

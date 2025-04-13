@@ -29,13 +29,13 @@
 		],
 		"texts" :
 		{
-			"name" : "弗利克",
-			"biography" : "弗利克本来是草原上的牧民，家族中有一手训鹰的绝活，她加入荒谷后可谓是如鱼得水。众人得自虫神古迹古籍中，有驯服牧虫鹫的方法，正好与弗利克家族所学颇为契合。",
+			"name" : "Wrlik",
+			"biography" : "Wrlik was originally a shepherd in the pasture, her family had only a few eagle training skills, and after entering the Wild Valley, she became a fish in water. In the ancient books obtained by the people from the Beetle God Monument, there is a method of taming the shepherd Hippogriffs that is exactly the same as what Wrlik's family learned.",
 			"specialty" :
 			{
-				"description" : "达到6级以后提高牧虫鹫或牧虫鹫王的攻击力与防御力。",
-				"tooltip" : "生物强化：牧虫鹫",
-				"name" : "牧虫鹫",
+				"description" : "Increases Speed of any Hippogriffs or Great Hippogriffs by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up)",
+				"tooltip" : "Creature Bonus: Hippogriffs",
+				"name" : "Hippogriffs",
 			}
 		},
 		"specialty" : {

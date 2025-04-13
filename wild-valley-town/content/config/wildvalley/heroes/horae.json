@@ -34,12 +34,12 @@
 				}
 			},
 		"texts" : {
-			"biography" : "霍雷曾经是位精灵德鲁伊，最擅长召唤自然的力量来破坏建筑，当然也能反过来利用自然的力量来建造建筑。某一天一群外族生物袭击了霍雷生活的精灵村庄，他被俘成为奴隶，后来荒谷的人类解救了他，于是他决定留下来帮助人类建立新家园。",
-			"name" : "霍雷",
+			"biography" : "Once upon a time, Horae was an elven druid who was best at summoning the forces of nature to destroy buildings, but of course could also use them to build structures. One day, the elven village where Horae lived was attacked by a group of foreign creatures, and he was captured and made a slave. Later, the humans from the Wild Valley rescued him, and he decided to stay and help the humans build a new home.",
+			"name" : "Horae",
 			"specialty" : {
-				"name" : "地动山摇",
-				"description" : "使用地动山摇魔法的效果达到最大。",
-				"tooltip" : "魔法增强：地动山摇"
+				"name" : "Earthquake",
+				"description" : "Can cast Earthquake spell with increased effectivenes.",
+				"tooltip" : "Spell Bonus: Earthquake"
 			}
 		}
 	}

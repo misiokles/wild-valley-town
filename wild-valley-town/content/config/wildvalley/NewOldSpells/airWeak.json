@@ -2,7 +2,7 @@
 	"airWeak":
 	{
 		"type": "ability", 
-		"name": "气系弱点",
+		"name": "Air Spell Damage Reduction",
 		"school":
 		{
 			"air": true,
@@ -75,7 +75,7 @@
 				}
 			}
 				},
-				"description": "额外受到+12%气系魔法伤害。"
+				"description": "Take an additional +12% Air Magic damage."
 			},
 			"none":
 			{},

@@ -29,12 +29,12 @@
 			}
 		},
 		"texts" : {
-			"biography" : "塔洛克曾经是位精灵魔法师，与塔皮奥是一对恋人，在解救被俘虏的精灵中发挥了很大的作用。经过这次事件后，塔洛克也决定加入荒谷势力，随恋人一起隐居。",
-			"name" : "塔洛克",
+			"biography" : "Talok was once an elven wizard and had a love affair with Tapio, who played a major role in rescuing captured elves. After this incident, Talok also decided to join the army of the Wikd Valley and live in seclusion with his lovers.",
+			"name" : "Taloc",
 			"specialty" : {
-				"description" : "使用魔法神箭魔法时效果大增，但还要取决于英雄级别与目标级别之差(目标的级别越低，效果越好)。",
-				"tooltip" : "魔法增强：魔法神箭",
-				"name" : "魔法神箭"
+				"description" : "Casts Magic Arrow with increased effect, based on hero level compared to the level of the target unit (the bonus is greater the lower the target's level).",
+				"tooltip" : "Spell Bonus: Magic Arrow",
+				"name" : "Magic Arrow"
 			}
 		}
 	}

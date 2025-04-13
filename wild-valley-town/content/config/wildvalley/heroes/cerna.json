@@ -30,12 +30,12 @@
 				}
 			},
 		"texts" : {
-			"biography" : "塞尔纳是荒谷势力成立初期解救的木精灵，她是位优秀的精灵弓箭手，多年的战斗经历使她掌握了很多战斗技巧。但是一次任务中的意外，她被敌人俘虏，幸好及时遇到了荒谷这群人，才没有耽误任务，而她的任务就是解救被奴役的木精灵。",
-			"name" : "塞尔纳",
+			"biography" : "Cerna is a wood elf who was rescued in the early days of the Wild Valley forces, she is an excellent elven archer and her years of combat experience have given her many fighting skills. But accidentally during a mission, she was captured by the enemy. Fortunately, she met Wild Valley army in time, so she didn't delay in her mission, and her mission was to free the enslaved forest elves.",
+			"name" : "Cerna",
 			"specialty" : {
-				"description" : "所带领生物的最小伤害值和最大伤害值各增加1。",
-				"tooltip" : "所有生物伤害+1",
-				"name" : "战争狂人"
+				"description" : "The minimum and maximum creature damage increased by 1.",
+				"tooltip" : "Creature Damage Bonus: +1 Damage to all creatures",
+				"name" : "+1 Damage"
 			}
 		}
 	}

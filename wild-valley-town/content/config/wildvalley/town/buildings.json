@@ -4,109 +4,109 @@
 			"buildings" : {
 				"mageGuild1" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5},
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within",
 					"id" : 0,
-					"name" : "1级魔法行会"
+					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 4,"sulfur": 4, "mercury": 4, "gems": 4},
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 1,
-					"name" : "2级魔法行会",
+					"name" : "Mage Guild Level 2",
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 6,"sulfur": 6, "mercury": 6, "gems": 6},
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 2,
-					"name" : "3级魔法行会",
+					"name" : "Mage Guild Level 3",
 					"upgrades" : "mageGuild2"
 				},
 				"mageGuild4" : {
 					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5, "crystal": 8,"sulfur": 8, "mercury": 8, "gems": 8},
-					"description" : "进入魔法行会的来访英雄可以学会其中的魔法。",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 3,
-					"name" : "4级魔法行会",
+					"name" : "Mage Guild Level 4",
 					"upgrades" : "mageGuild3"
 				},
 				"mageGuild5" : null,
 				"tavern" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
-					"description" : "酒馆可提高驻军的士气。",
+					"description" : "The Tavern increases morale for troops defending the city.",
 					"id" : 5,
-					"name" : "酒馆"
+					"name" : "Tavern"
 				},
 				"shipyard" : {
 					"cost" : { "gold" : 2000, "ore" : 0, "wood" : 20, "crystal": 0,"sulfur": 0, "mercury": 0, "gems": 0},
-					"description" : "船坞允许你购买船只。",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"id" : 6,
-					"name" : "船坞"
+					"name" : "Shipyard"
 				},
 				"fort" : {
 					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
-					"description" : "堡垒可为你的城镇提供城墙。",
+					"description" : "The Fort provides your town with defensive walls.",
 					"id" : 7,
-					"name" : "堡垒"
+					"name" : "Fort"
 				},
 				"citadel" : {
 					"cost" : { "gold" : 2500, "ore" : 5 },
-					"description" : "大本营不仅使生物的基本生长率提高50%，还能加强城镇的防御设施。",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"id" : 8,
-					"name" : "大本营",
+					"name" : "Citadel",
 					"upgrades" : "fort"
 				},
 				"castle" : {
 					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
-					"description" : "城堡可提供2座副箭塔以加强城镇的防御，而且还使生物的基本生长率加倍。",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"id" : 9,
-					"name" : "城堡",
+					"name" : "Castle",
 					"upgrades" : "citadel"
 				},
 				"villageHall" : {
-					"description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
 					"id" : 10,
 					"mode" : "auto",
-					"name" : "议事堂",
+					"name" : "Village Hall",
 					"produce": { "gold": 500 }
 				},
 				"townHall" : {
 					"cost" : { "gold" : 2500 },
-					"description" : "内政厅可以让你购买城镇建筑，并每天向你提供1000个金币。",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"id" : 11,
-					"name" : "内政厅",
+					"name" : "Town Hall",
 					"requires" : [ "tavern" ],
 					"upgrades" : "villageHall", 
 					"produce": { "gold": 1000 }
 				},
 				"cityHall" : {
 					"cost" : { "gold" : 5000 },
-					"description" : "议会可以让你购买城镇建筑并每天向你提供2000个金币。",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"id" : 12,
-					"name" : "议会",
+					"name" : "City Hall",
 					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
 					"upgrades" : "townHall",
 					"produce": { "gold": 2000 }
 				},
 				"capitol" : {
 					"cost" : { "gold" : 10000 },
-					"description" : "国会每天向你提供4000个金币。",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"id" : 13,
-					"name" : "国会",
+					"name" : "Capitol",
 					"requires" : [ "castle" ],
 					"upgrades" : "cityHall", 
 					"produce": { "gold": 4000 }
 				},
 				"marketplace" : {
 					"cost" : { "gold" : 500, "wood" : 5 },
-					"description" : "市场可让你交换资源(你所拥有的市场越多，价格越便宜)。",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"id" : 14,
-					"name" : "市场"
+					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
 					"cost" : { "gold" : 5000, "ore" : 5 },
-					"description" : "物资仓库每天为你额外提供1个木材和1个石头。",
+					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
 					"id" : 15,
-					"name" : "物资仓库",
+					"name" : "Resourse Silo",
 					"requires" : [
 						"allOf",["fort"],["marketplace"]
 					],
@@ -114,9 +114,9 @@
 				},
 				"blacksmith" : {
 					"cost" : { "gold" : 1000, "wood" : 5 },
-					"description" : "铁匠铺可向你的军队提供治疗帐篷。",
+					"description" : "The Blacksmith provides your armies with First Aid Tents.",
 					"id" : 16,
-					"name" : "铁匠铺",
+					"name" : "Blacksmith",
 					"warMachine" : "firstAidTent",
 					"requires" : [
 						"allOf",["tavern"]
@@ -124,9 +124,9 @@
 				},
 				"face" : {
 					"cost" : { "gold" : 1000, "ore" : 5},
-					"description" : "荒谷石像使每个来访英雄的知识+1",
+					"description" : "The Stone Faces of the Wild Valley gives +1 Knowledge of each hero visiting the city.",
 					"id" : 17,
-					"name" : "荒谷石像",
+					"name" : "Stone Faces",
 					"configuration" : {
 						"visitMode" : "hero",
 						"rewards" : [
@@ -142,42 +142,42 @@
 				},
 				"hordeLvl1" : {
 					"cost" : { "gold" : 1000 },
-					"description" : "保温火堆使甲虫的周产量+8。",
+					"description" : "The Isolated Сampfire increases weekly production of Beetles by 8 per week.",
 					"id" : 18,
-					"name" : "保温火堆",
+					"name" : "Isolated Сampfire",
 					"upgrades" : "dwellingLvl1"
 				},
 				"hordeUpLvl1" : {
 					"cost" : { "gold" : 1000 },
-					"description" : "保温火堆使金甲虫的周产量+8。",
+					"description" : "The Isolated Fire Pit increases weekly production of Golden Beetles by 8 per week.",
 					"id" : 19,
 					"mode" : "auto",
-					"name" : "保温火堆",
+					"name" : "Isolated Fire Pit",
 					"requires" : [ "hordeLvl1" ],
 					"upgrades" : "dwellingUpLvl1"
 				},
 				"ship" : {
 					"id" : 20,
-					"name" : "船坞",
-					"description" : "船坞允许你购买船只",
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
 					"upgrades" : "shipyard",
 					"requires" : [
 						"allOf",["shipyard"]],
 				},
 				"vault" : {
 					"cost" : { "gold" : 2500, "ore" : 5, "wood" : 5},
-					"description" : "地窖每天为你的王国额外提供500个金币。",
+					"description" : "The Cellars earns your kingdom 500 gold per day.",
 					"id" : 21,
-					"name" : "地窖", 
+					"name" : "Cellars", 
 				 	"produce": { "gold": 500 }, 
 					"requires" : [
 						"allOf",["resourceSilo"]],
 				},
 				"special" : {
 					"cost" : { "gold" : 500, "ore" : 5},
-					"description" : "巨像可以是驻守英雄攻击力+2",
+					"description" : "The Stone Statue gives +2 Attack of each hero visiting the city.",
 					"id" : 22,
-					"name" : "巨像",
+					"name" : "Stone Statue",
 					"bonuses": [
 						{
 							"type": "PRIMARY_SKILL",
@@ -191,25 +191,25 @@
 				},
 				"hordeLvl5" : {
 					"cost" : { "gold" : 1500 },
-					"description" : "蜘蛛神殿使古巨蛛的周产量+2。",
+					"description" : "The Spider Shrine increases weekly production of Giant Spiders by 2 per week.",
 					"id" : 24,
-					"name" : "蜘蛛神殿",
+					"name" : "Spider Shrine",
 					"upgrades" : "dwellingLvl5"
 				},
 				"hordeUpLvl5" : {
 					"cost" : { "gold" : 1500 },
-					"description" : "蜘蛛神殿使荒野巨蛛的周产量+2。",
+					"description" : "The Spider Shrine increases weekly production of Ancient Spiders by 2 per week.",
 					"id" : 25,
 					"mode" : "auto",
-					"name" : "蜘蛛神殿",
+					"name" : "Spider Shrine",
 					"requires" : [ "hordeLvl5" ],
 					"upgrades" : "dwellingUpLvl5"
 				},
 				"grail" : {
-					"description" : "天空岛使每周的生物产量提高50%，每天为你的王国额外提供5000个金币，所有英雄可以使用最高等级的气系魔法，并使驻守英雄的力量和智力各+7。",
+					"description" : "The Sky Island increases weekly creature generation by 50%, provides your kingdom with an additional 5000 gold each day, allows all heroes to use the highest level of air magic, and gives +7 Knowledge and Spellpower of each hero visiting the city.",
 					"id" : 26,
 					"mode" : "grail",
-					"name" : "天空岛",
+					"name" : "Sky Island",
                     "bonuses":[	
 					       {"type": "PRIMARY_SKILL", "subtype": "primarySkill.knowledge","val": 7 },
 						   {"type": "PRIMARY_SKILL", "subtype": "primarySkill.spellpower","val": 7 },
@@ -219,52 +219,52 @@
 				},
 				"dwellingLvl1" : {
 					"cost" : { "gold" : 500, "wood" : 5, "ore" : 5},
-					"description" : "温室虫屋允许你招募甲虫。",
+					"description" : "The Greenhouse allows you to recruit Beetles.",
 					"id" : 30,
-					"name" : "温室虫屋",
+					"name" : "Greenhouse",
 					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" : {
 					"cost" : { "gold" : 1000, "ore" : 3, "wood" : 3},
-					"description" : "清泉溪流允许你招募荧光虫。",
+					"description" : "The Spring Creek allows you to recruit Fireflies.",
 					"id" : 31,
-					"name" : "清泉溪流",
+					"name" : "Spring Creek",
 					"requires" : [ 
 						"allOf",["dwellingLvl1"],[ "fort" ]
 					]
 				},
 				"dwellingLvl3" : {
 					"cost" : { "gold" : 1500, "ore" : 5, "wood" : 5},
-					"description" : "魔虫古洞允许你招募地穴魔虫。",
+					"description" : "The Dump Tomb allows you to recruit Tomb Bettles.",
 					"id" : 32,
-					"name" : "魔虫古洞",
+					"name" : "Dump Tomb",
 					"requires" : [ 
 						"allOf",["dwellingLvl1"],[ "fort" ]
 					]
 				},
 				"dwellingLvl4" : {
 					"cost" : { "gold" : 2000, "wood" : 10, "mercury": 4},
-					"description" : "巫女神庙允许你招募牧虫女巫。",
+					"description" : "The Bug Lady Temple allows you to recruit Bug Ladies.",
 					"id" : 33,
-					"name" : "巫女神庙",
+					"name" : "Bug Lady Temple",
 					"requires" : [ 
 						"allOf",["mageGuild1"],[ "fort" ]
 					]
 				},
 				"dwellingLvl5" : {
 					"cost" : { "gold" : 2500, "ore" : 10, "gems": 4},
-					"description" : "古蛛领地允许你招募古巨蛛。",
+					"description" : "The Spider Temple allows you to recruit Giant Spiders.",
 					"id" : 34,
-					"name" : "古蛛领地",
+					"name" : "Spider Temple",
 					"requires" : [ 
 						"allOf",["dwellingLvl2"],["dwellingLvl4"]
 					]
 				},
 				"dwellingLvl6" : {
 					"cost" : { "gold" : 4000, "wood" : 12, "crystal": 4,"sulfur": 4},
-					"description" : "魔法森林允许你招募迷虫树妖。",
+					"description" : "The Quiet Oakwood allows you to recruit Treants.",
 					"id" : 35,
-					"name" : "魔法森林",
+					"name" : "Quiet Oakwood",
 					"requires" : [ 
 						"allOf", ["dwellingLvl4"],
 						[ "noneOf",
@@ -274,18 +274,18 @@
 				},
 				"dwellingLvl7" : {
 					"cost" : { "gold" : 15000, "wood" : 10, "ore": 10, "crystal": 6,"sulfur": 6, "mercury": 6, "gems": 6},
-					"description" : "虫神古迹允许你招募巨螳螂。",
+					"description" : "The Mantis Temple allows you to recruit Wild Mantises.",
 					"id" : 36,
-					"name" : "虫神古迹",
+					"name" : "Mantis Temple",
 					"requires" : [ 
 						"allOf", ["fort"],["dwellingLvl4"],["dwellingLvl5"]
 					]
 				},
 				"dwellingUpLvl1" : {
 					"cost" : { "gold" : 1000, "wood" : 5},
-					"description" : "高级温室虫屋允许你招募金甲虫。",
+					"description" : "The Advanced Greenhouse allows you to recruit Golden Beetles.",
 					"id" : 37,
-					"name" : "高级温室虫屋",
+					"name" : "Adv. Greenhouse",
 					"upgrades" : "dwellingLvl1",
 					"requires" : [ 
 						"allOf", ["fort"]
@@ -293,25 +293,25 @@
 				},
 				"dwellingUpLvl2" : {
 					"cost" : { "gold" : 1000, "wood" : 5, "ore": 5},
-					"description" : "高级清泉溪流允许你招募电光虫。",
+					"description" : "The Quiet Spring Creek allows you to recruit Firefly Stalkers.",
 					"id" : 38,
-					"name" : "高级清泉溪流",
+					"name" : "Quiet Spring Creek",
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
 					"cost" : { "gold" : 1000, "ore" : 5},
-					"description" : "高级魔虫古洞允许你招募地穴狂魔虫。",
+					"description" : "The Well-Kept Tomb allows you to recruit Tomb Bettle-Stags.",
 					"id" : 39,
-					"name" : "高级魔虫古洞",
+					"name" : "Well-Kept Tomb",
 					"requires" : [ 
 						"allOf",["dwellingLvl4"]
 					]
 				},
 				"dwellingUpLvl4" : {
 					"cost" : { "gold" : 1500, "wood" : 5, "mercury": 5},
-					"description" : "高级巫女神庙允许你招募牧虫女巫医。",
+					"description" : "The Advanced Bug Lady Temple allows you to recruit Bug Lady-Priestesses.",
 					"id" : 40,
-					"name" : "高级巫女神庙",
+					"name" : "Adv. Bug Lady Temple",
 					"upgrades" : "dwellingLvl4",
 					"requires" : [ 
 						"allOf", ["mageGuild2"]
@@ -319,9 +319,9 @@
 				},
 				"dwellingUpLvl5" : {
 					"cost" : { "gold" : 2000, "ore" : 5, "gems": 5},
-					"description" : "高级古蛛领地允许你招募摄魂巨蛛。",
+					"description" : "The Advanced Spider Temple allows you to recruit Ancient Spiders.",
 					"id" : 41,
-					"name" : "高级古蛛领地",
+					"name" : "Adv. Spider Temple",
 					"upgrades" : "dwellingLvl5",
 					"requires" : [ 
 						"allOf", ["dwellingUpLvl4"]
@@ -329,9 +329,9 @@
 				},
 				"dwellingUpLvl6" : {
 					"cost" : { "gold" : 3000, "wood" : 15, "crystal": 5,"sulfur": 5},
-					"description" : "高级魔法森林允许你招募虫栖树妖。",
+					"description" : "The Enchanted Oakwood allows you to recruit Insectivorous Treants.",
 					"id" : 42,
-					"name" : "高级魔法森林",
+					"name" : "Enchanted Oakwood",
 					"upgrades" : "dwellingLvl6",
 					"requires" : [ 
 						"allOf", ["dwellingUpLvl4"]
@@ -339,9 +339,9 @@
 				},
 				"dwellingUpLvl7" : {
 					"cost" : { "gold" : 18000, "ore" : 12, "wood" : 12, "crystal": 7,"sulfur": 7, "mercury": 7, "gems": 7},
-					"description" : "高级虫神古迹允许你招募金刀螳螂",
+					"description" : "The Idol of the Bug God allows you to recruit Great Mantis.",
 					"id" : 43,
-					"name" : "高级虫神古迹",
+					"name" : "Idol of the Bug God",
 					"upgrades" : "dwellingLvl7",
 					"requires" : [ 
 						"allOf", ["dwellingUpLvl4"],["mageGuild2"]
@@ -349,17 +349,17 @@
 				},
 				"dwellingUpLvl2b" : {
 					"cost" : { "gold" : 1000, "wood" : 5, "ore": 5},
-					"description" : "高级清泉溪流允许你招募电光虫和电击虫，并且可以在城中进行转换。",
+					"description" : "The Swift Spring Creek allows you to recruit Firefly Hunters.",
 					"id" : 45,
-					"name" : "高级清泉溪流",
+					"name" : "Swift Spring Creek",
 					"upgrades" : "dwellingUpLvl2",
 					"mode" : "auto"
 				},
 				"dwellingAlternateLvl6" : {
 					"cost" : { "gold" : 4000, "ore" : 12, "crystal": 4,"sulfur": 4},
-					"description" : "崖柏鹫巢允许你招募牧虫鹫。",
+					"description" : "The Hippogriff Nest allows you to recruit Hippogriffs.",
 					"id" : 49,
-					"name" : "崖柏鹫巢",
+					"name" : "Hippogriff Nest",
 					"requires" : [ 
 						"allOf",["blacksmith"],["dwellingLvl4"],
 						[ "noneOf",
@@ -370,9 +370,9 @@
 				},
 				"dwellingAlternateUpLvl6" : {
 					"cost" : { "gold" : 3000, "ore" : 15, "crystal": 5,"sulfur": 5},
-					"description" : "高级崖柏鹫巢允许你招募牧虫鹫王。",
+					"description" : "The Advanced Hippogriff Nest allows you to recruit Great Hippogriffs.",
 					"id" : 56,
-					"name" : "高级崖柏鹫巢",
+					"name" : "Adv. Hippogriff Nest",
 					"upgrades" : "dwellingAlternateLvl6",
 					"requires" : [ 
 						"allOf", ["dwellingUpLvl4"]

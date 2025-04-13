@@ -29,12 +29,12 @@
 			}
 		},
 		"texts" : {
-			"biography" : "亚克被是一位落魄的年轻贵族，荒谷势力最初的四位缔造者之一。少年和青年时期他跟随父亲经历了军事训练和小规模的战争，在他25岁那年，父亲意外死于战场，家道中落。此后他一心想建立自己的势力，为自己而战，成为一方领主。",
-			"name" : "亚克",
+			"biography" : "Aker was a downtrodden young nobleman, one of the four founders of the kingdom Wild Walley. As a teenager and young adult, he followed his father through military training and small wars, and when he turned 25, his father was unexpectedly killed in battle and the family fell. Since then, he has sought to create his own army and fight for himself as armorer.",
+			"name" : "Aker",
 			"specialty" : {
-				"description" : "在防御术上每级获得5%的奖励。",
-				"tooltip" : "技能加成：防御术",
-				"name" : "防御术"
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
 			}
 		}
 	}
